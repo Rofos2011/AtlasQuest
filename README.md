@@ -35,7 +35,7 @@ Example:
 - Quest Name:
 > Foreign Techonlogy
 - Quest ID:
-> 
+> 27167
 - Attain lvl:
 > 17
 - Quest lvl:
