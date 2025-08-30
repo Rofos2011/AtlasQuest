@@ -36,8 +36,8 @@ local ORANGE = "|cffff6090"; -- it is pink now
 local YELLOW = "|cffffff00";
 local BLACK = "|c0000000f";
 local DARKGREEN = "|cff008000";
-local EPOCH = "|cffFF4500";
 local BLUB = "|cffd45e19";
+local EPOCH = "|cffFF4500";
 
 -- Quest Color
 local Grau = "|cff9d9d9d"
@@ -79,7 +79,7 @@ AtlasQuestHelp = {};
 AtlasQuestHelp[1] = "[/aq + available command: help, left/right, show/hide, autoshow\ndownload adress:\nhttp://ui.worldofwar.net/ui.php?id=3069, http://www.curse-gaming.com/de/wow/addons-4714-1-atlasquest.html]";
 
 local AtlasQuest_Defaults = {
-  ["Version"] =  "4.4.3",
+  ["Version"] =  "5.0.1",
   [UnitName("player")] = {
     ["ShownSide"] = "Left",
     ["AtlasAutoShow"] = 1,
@@ -304,14 +304,9 @@ function atlasquest_command(param)
      ChatFrame1:AddMessage("Blackrock Depths: 5");
      ChatFrame1:AddMessage("Blackrock Spire (Lower): 8");
      ChatFrame1:AddMessage("Blackrock Spire (Upper): 9");
-     ChatFrame1:AddMessage("Blackwing Lair: 6");
      ChatFrame1:AddMessage("Deadmines: 1");
-     ChatFrame1:AddMessage("Dire Maul: 10");
      ChatFrame1:AddMessage("Gnomeregan: 29");
      ChatFrame1:AddMessage("Maraudon: 13");
-     ChatFrame1:AddMessage("Molten Core: 14");
-     ChatFrame1:AddMessage("Naxxramas: 15");
-     ChatFrame1:AddMessage("Onyxia's Lair: 16");
      ChatFrame1:AddMessage("RageFire Chasm: 3");
      ChatFrame1:AddMessage("Razorfen Downs: 17");
      ChatFrame1:AddMessage("Razorfen Kraul: 18");
@@ -319,14 +314,11 @@ function atlasquest_command(param)
      ChatFrame1:AddMessage("Scholomance: 20");
      ChatFrame1:AddMessage("Shadowfang Keep: 21");
      ChatFrame1:AddMessage("Stratholme: 22");
-     ChatFrame1:AddMessage("The Ruins of Ahn Qiraj: 23");
      ChatFrame1:AddMessage("The Stockade: 24");
      ChatFrame1:AddMessage("The Sunken Temple: 25");
-     ChatFrame1:AddMessage("The Temple of Ahn Qiraj: 26");
      ChatFrame1:AddMessage("Uldaman: 4");
      ChatFrame1:AddMessage("Wailing Caverns: 2");
      ChatFrame1:AddMessage("Zul Farrak: 27");
-     ChatFrame1:AddMessage("Zul Gurub: 28");
      
   --List of Alliance Quests
   elseif (param == "inst a") then

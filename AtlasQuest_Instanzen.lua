@@ -126,160 +126,6 @@ function AtlasQuest_Instanzenchecken()
 		AQINSTANZ = 59;
 
 
-	-- Burning Crusade Instances
-
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\HCHellfireRamparts") then
-		AQINSTANZ = 37;
-
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\HCBloodFurnace") then
-		AQINSTANZ = 38;
-
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\HCTheShatteredHalls") then
-		AQINSTANZ = 39;
-
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\HCMagtheridonsLair") then
-		AQINSTANZ = 40;
-
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\CFRTheSlavePens") then
-		AQINSTANZ = 41;
-
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\CFRTheSteamvault") then
-		AQINSTANZ = 42;
-
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\CFRTheUnderbog") then
-		AQINSTANZ = 43;
-
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\AuchAuchenaiCrypts") then
-		AQINSTANZ = 44;
-
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\AuchManaTombs") then
-		AQINSTANZ = 45;
-
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\AuchSethekkHalls") then
-		AQINSTANZ = 46;
-
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\AuchShadowLabyrinth") then
-		AQINSTANZ = 47;
-
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\CFRSerpentshrineCavern") then
-		AQINSTANZ = 48;
-
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\CoTBlackMorass") then
-		AQINSTANZ = 49;
-
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\CoTHyjal") then
-		AQINSTANZ = 50;
-
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\CoTOldHillsbrad") then
-		AQINSTANZ = 51;
-
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\GruulsLair") then
-		AQINSTANZ = 52;
-
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\KarazhanStart") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\KarazhanEnd") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\KarazhanEnt") then
-		AQINSTANZ = 53;
-
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TempestKeepArcatraz") then
-		AQINSTANZ = 54;
-
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TempestKeepBotanica") then
-		AQINSTANZ = 55;
-
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TempestKeepMechanar") then
-		AQINSTANZ = 56;
-
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TempestKeepTheEye") then
-		AQINSTANZ = 61;
-
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\BlackTempleStart") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\BlackTempleBasement") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\BlackTempleTop") then
-		AQINSTANZ = 62;
-
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\ZulAman") then
-		AQINSTANZ = 63;
-
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\MagistersTerrace") then
-		AQINSTANZ = 67;
-
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\SunwellPlateau") then
-		AQINSTANZ = 68;
-
-
-	-- Wrath of the Lich King Instances
-
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\CoTOldStratholme") then
-		AQINSTANZ = 69;
-
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\UtgardeKeep") then
-		AQINSTANZ = 70;
-
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\UtgardePinnacle") then
-		AQINSTANZ = 71;
-
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TheNexus") then
-		AQINSTANZ = 72;
-
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TheOculus") then
-		AQINSTANZ = 73;
-
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TheEyeOfEternity") then
-		AQINSTANZ = 74;
-
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\AzjolNerub") then
-		AQINSTANZ = 75;
-
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\AhnKahet") then
-		AQINSTANZ = 76;
-
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\UlduarHallsofStone") then
-		AQINSTANZ = 77;
-
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\UlduarHallsofLightning") then
-		AQINSTANZ = 78;
-
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\ObsidianSanctum") then
-		AQINSTANZ = 79;
-
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\DrakTharonKeep") then
-		AQINSTANZ = 80;
-
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\Gundrak") then
-		AQINSTANZ = 81;
-
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\VioletHold") then
-		AQINSTANZ = 82;
-
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\Naxxramas") then
-		AQINSTANZ = 84;
-
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\VaultOfArchavon") then
-		AQINSTANZ = 85;
-
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\UlduarA") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\UlduarB") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\UlduarC") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\UlduarD") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\UlduarE") then
-		AQINSTANZ = 86;
-
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TrialOfTheChampion") then
-		AQINSTANZ = 87;
-
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TrialOfTheCrusader") then
-		AQINSTANZ = 88;
-
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\FHTheForgeOfSouls") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\TheForgeOfSouls") then
-		AQINSTANZ = 90;
-
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\FHPitOfSaron") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\PitOfSaron") then
-		AQINSTANZ = 91;
-
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\FHHallsOfReflection") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\HallsOfReflection") then
-		AQINSTANZ = 92;
-
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\IcecrownCitadelA") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\IcecrownCitadelB") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\IcecrownCitadelC") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\IcecrownStart") or (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\IcecrownEnd") then
-		AQINSTANZ = 93;
-
-	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\RubySanctum") then
-		AQINSTANZ = 94;
-
-
-
 	-- Battlegrounds
 
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_Battlegrounds\\Images\\AlteracValleyNorth") then
@@ -321,6 +167,16 @@ function AtlasQuest_Instanzenchecken()
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_OutdoorRaids\\Images\\Skettis")  then
 		AQINSTANZ = 66;
 
+-- ProjectEpoch Dungeons
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\StonetalonCaverns") then
+		AQINSTANZ = 97;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\BaradinHold") then
+		AQINSTANZ = 96;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\GlittermurkMines") then
+		AQINSTANZ = 95;
 
 	-- Default
 
@@ -355,8 +211,8 @@ function AtlasQuest_InstanzencheckAM()
 	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\BlackrockDepths") then
 		AQINSTANZ = 5;
 
-	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\BlackwingLair") then
-		AQINSTANZ = 6;
+--	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\BlackwingLair") then
+--		AQINSTANZ = 6;
 
 	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\BlackfathomDeeps") or (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Exteriors\\Maps\\BlackfathomDeepsExt") then
 		AQINSTANZ = 7;
@@ -367,14 +223,14 @@ function AtlasQuest_InstanzencheckAM()
 	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\UBRS") then
 		AQINSTANZ = 9;
 
-	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\DMEast") then
-		AQINSTANZ = 10;
+--	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\DMEast") then
+--		AQINSTANZ = 10;
 
-	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\DMNorth") then
-		AQINSTANZ = 11;
+--	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\DMNorth") then
+--		AQINSTANZ = 11;
 
-	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\DMWest") then
-		AQINSTANZ = 12;
+--	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\DMWest") then
+--		AQINSTANZ = 12;
 
 	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\Maraudon") or (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Exteriors\\Maps\\MaraudonExt") then
 		AQINSTANZ = 13;
@@ -382,11 +238,11 @@ function AtlasQuest_InstanzencheckAM()
 	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\MoltenCore") then
 		AQINSTANZ = 14;
 
-	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\Naxxramas") then
-		AQINSTANZ = 15;
+--	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\Naxxramas") then
+--		AQINSTANZ = 15;
 
-	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\OnyxiasLair") then
-		AQINSTANZ = 16;
+--	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\OnyxiasLair") then
+--		AQINSTANZ = 16;
 
 	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\RazorfenDowns") then
 		AQINSTANZ = 17;
@@ -406,8 +262,8 @@ function AtlasQuest_InstanzencheckAM()
 	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\Stratholme") then
 		AQINSTANZ = 22;
 
-	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\RuinsofAhnQiraj") then
-		AQINSTANZ = 23;
+--	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\RuinsofAhnQiraj") then
+--		AQINSTANZ = 23;
 
 	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\TheStockade") then
 		AQINSTANZ = 24;
@@ -415,200 +271,29 @@ function AtlasQuest_InstanzencheckAM()
 	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\TheSunkenTemple") or (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Exteriors\\Maps\\SunkenTempleExt") then
 		AQINSTANZ = 25;
 
-	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\TempleofAhnQiraj") then
-		AQINSTANZ = 26;
+--	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\TempleofAhnQiraj") then
+--		AQINSTANZ = 26;
 
 	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\ZulFarrak") then
 		AQINSTANZ = 27;
 
-	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\ZulGurub") then
-		AQINSTANZ = 28;
+--	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\ZulGurub") then
+--		AQINSTANZ = 28;
 
 	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\Gnomeregan") or (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Exteriors\\Maps\\GnomereganExt") then
 		AQINSTANZ = 29;
 
 
-	-- Burning Crusade Instances
-
-	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\HCRampart") then
-		AQINSTANZ = 37;
-
-	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\HCBloodFurnace") then
-		AQINSTANZ = 38;
-
-	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\HCShatteredHalls") then
-		AQINSTANZ = 39;
-
-	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\MagtheridonsLair") then
-		AQINSTANZ = 40;
-
-	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\TheSlavePens") then
-		AQINSTANZ = 41;
-
-	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\TheSteamvault") then
-		AQINSTANZ = 42;
-
-	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\TheUnderbog") then
-		AQINSTANZ = 43;
-
-	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\AuchenaiCrypts") then
-		AQINSTANZ = 44;
-
-	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\ManaTombs") then
-		AQINSTANZ = 45;
-
-	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\SethekkHalls") then
-		AQINSTANZ = 46;
-
-	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\ShadowLabyrinth") then
-		AQINSTANZ = 47;
-
-	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\Serpentshrine") then
-		AQINSTANZ = 48;
-
-	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\BlackMorass") then
-		AQINSTANZ = 49;
-
-	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\MountHyjal") then
-		AQINSTANZ = 50;
-
-	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\OldHilsbrad") then
-		AQINSTANZ = 51;
-
-	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\GruulsLair") then
-		AQINSTANZ = 52;
-
-	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\Karazahn") or (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Exteriors\\Maps\\KarazhanExt") then
-		AQINSTANZ = 53;
-
-	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\Arcatraz") then
-		AQINSTANZ = 54;
-
-	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\Botanica") then
-		AQINSTANZ = 55;
-
-	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\Mechanar") then
-		AQINSTANZ = 56;
-
-	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\TheEye") then
-		AQINSTANZ = 61;
-
-	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\BlackTemple") then
-		AQINSTANZ = 62;
-
-	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\ZulAman") then
-		AQINSTANZ = 63;
-
-	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\MagistersTerrace") then
-		AQINSTANZ = 67;
-
-	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\SunwellPlateau") then
-		AQINSTANZ = 68;
-
-
-	-- Wrath of the Lich King Instances
-
-	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\OldStrat") then
-		AQINSTANZ = 69;
-
-	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\UtgardeKeep") then
-		AQINSTANZ = 70;
-
-	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\UtgardeKeep1") then
-		AQINSTANZ = 70;
-
-	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\UtgardePinnacle") then
-		AQINSTANZ = 71;
-
-	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\Nexus") then
-		AQINSTANZ = 72;
-
-	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\Oculus") then
-		AQINSTANZ = 73;
-
-	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\TheEyeOfEternity") then
-		AQINSTANZ = 74;
-
-	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\AzjolNerub") then
-		AQINSTANZ = 75;
-
-	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\AzjolNerubLower") then
-		AQINSTANZ = 75;
-
-	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\AhnkahetTOK") then
-		AQINSTANZ = 76;
-
-	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\StoneHalls") then
-		AQINSTANZ = 77;
-
-	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\HoL") then
-		AQINSTANZ = 78;
-
-	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\CoAB") then
-		AQINSTANZ = 79;
-
-	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\DrakTharonLower") then
-		AQINSTANZ = 80;
-
-	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\DrakTharonUpper") then
-		AQINSTANZ = 80;
-
-	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\GunDrak") then
-		AQINSTANZ = 81;
-
-	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\VH") then
-		AQINSTANZ = 82;
-
-	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\Naxxramas") then
-		AQINSTANZ = 84;
-
-	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\Archavon") then
-		AQINSTANZ = 85;
-
-	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\Uld1Siege") or (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\Uld2Ante") or (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\Uld3Keepers") or (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\Uld4Spark") or (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\Uld5Descent") then
-		AQINSTANZ = 86;
-
-	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\TrialOfTheChampion") then
-		AQINSTANZ = 87;
-
-	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\TrialOfTheCrusader") then
-		AQINSTANZ = 88;
-
-	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\ForgeOfSouls") then
-		AQINSTANZ = 90;
-
-	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\PitOfSaron") then
-		AQINSTANZ = 91;
-
-	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\HallsOfReflection") then
-		AQINSTANZ = 92;
-
-	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\IcecrownCitadel") then
-		AQINSTANZ = 93;
-
-	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Instances\\Maps\\RubySanctum") then
-		AQINSTANZ = 94;
-
-
 	-- Battlegrounds
 
-	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Battlegrounds\\Maps\\AlteracValley") then
-		AQINSTANZ = 33;
+--	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Battlegrounds\\Maps\\AlteracValley") then
+--		AQINSTANZ = 33;
 
-	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Battlegrounds\\Maps\\ArathiBasin") then
-		AQINSTANZ = 34;
+--	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Battlegrounds\\Maps\\ArathiBasin") then
+--		AQINSTANZ = 34;
 
 	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Battlegrounds\\Maps\\WarsongGulch") then
 		AQINSTANZ = 35;
-
-	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Battlegrounds\\Maps\\NetherstormBG") then
-		AQINSTANZ = 60;
-
-	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Battlegrounds\\Maps\\SotA") then
-		AQINSTANZ = 83;
-
-	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Battlegrounds\\Maps\\IsleOfConquest") then
-		AQINSTANZ = 89;
 
 
 	-- Default
@@ -624,22 +309,18 @@ function AtlasQuest_InstanzencheckAM()
 	if (AlphaMapAlphaMapFrame:IsVisible()) then
 		if (GamAlphaMapMap ~= nil) then -- check to prevent errors (post  ui.worldofwar dunno why error ocour)
 			if (GamAlphaMapMap.type == AM_TYP_WORLDBOSSES) then
-				if (GamAlphaMapMap.filename == "AM_DoomKazzak_Map") then
-					AQINSTANZ = 64;
-				elseif (GamAlphaMapMap.filename == "AM_Doomwalker_Map") then
-					AQINSTANZ = 65;
-				elseif (GamAlphaMapMap.filename == "AM_Kazzak_Map") then
-					AQINSTANZ = 32;
-				elseif (GamAlphaMapMap.filename == "AM_Azuregos_Map") then
+				if (GamAlphaMapMap.filename == "AM_Azuregos_Map") then
 					AQINSTANZ = 31;
-				elseif (GamAlphaMapMap.filename == "AM_Dragon_Duskwood_Map") then
-					AQINSTANZ = 30;
-				elseif (GamAlphaMapMap.filename == "AM_Dragon_Hinterlands_Map") then
-					AQINSTANZ = 30;
-				elseif (GamAlphaMapMap.filename == "AM_Dragon_Feralas_Map") then
-					AQINSTANZ = 30;
-				elseif (GamAlphaMapMap.filename == "AM_Dragon_Ashenvale_Map") then
-					AQINSTANZ = 30;
+--				elseif (GamAlphaMapMap.filename == "AM_Kazzak_Map") then
+--					AQINSTANZ = 32;
+--				elseif (GamAlphaMapMap.filename == "AM_Dragon_Duskwood_Map") then
+--					AQINSTANZ = 30;
+--				elseif (GamAlphaMapMap.filename == "AM_Dragon_Hinterlands_Map") then
+--					AQINSTANZ = 30;
+--				elseif (GamAlphaMapMap.filename == "AM_Dragon_Feralas_Map") then
+--					AQINSTANZ = 30;
+--				elseif (GamAlphaMapMap.filename == "AM_Dragon_Ashenvale_Map") then
+--					AQINSTANZ = 30;
 				else
 					AQINSTANZ = 36;
 				end
@@ -676,77 +357,23 @@ end
 -- 20 = Scholomance (Scholo)
 -- 21 = Shadowfang Keep (SFK)
 -- 22 = Stratholme (Strat)
--- 23 = The Ruins of Ahn'Qiraj (AQ20)
 -- 24 = The Stockade (Stocks)
 -- 25 = Sunken Temple (ST)
--- 26 = The Temple of Ahn'Qiraj (AQ40)
 -- 27 = Zul'Farrak (ZF)
 -- 28 = Zul'Gurub (ZG)
 -- 29 = Gnomeregan (Gnomer)
 -- 30 = Four Dragons
 -- 31 = Azuregos
--- 32 = Highlord Kruul (removed)
 -- 33 = Alterac Valley (AV)
 -- 34 = Arathi Basin (AB)
 -- 35 = Warsong Gulch (WSG)
 -- 36 =  default "rest"
--- 37 = HFC: Ramparts (Ramp)
--- 38 = HFC: Blood Furnace (BF)
--- 39 = HFC: Shattered Halls (SH)
--- 40 = HFC: Magtheridon's Lair
--- 41 = CR: The Slave Pens (SP)
--- 42 = CR: The Steamvault (SV)
--- 43 = CR: The Underbog (UB)
--- 44 = Auchindoun: Auchenai Crypts (AC)
--- 45 = Auchindoun: Mana Tombs (MT)
--- 46 = Auchindoun: Sethekk Halls (Seth)
--- 47 = Auchindoun: Shadow Labyrinth (SLabs)
--- 48 = CR: Serpentshrine Cavern (SSC)
--- 49 = CoT: Black Morass (BM)
--- 50 = CoT: Battle of Mount Hyjal
--- 51 = CoT: Old Hillsbrad
--- 52 = Gruul's Lair (GL)
--- 53 = Karazhan (Kara)
--- 54 = TK: Arcatraz (Arc)
--- 55 = TK: Botanica (Bot)
--- 56 = TK: Mechanar (Mech)
 -- 57 = SM: Armory (SM Arm)
 -- 58 = SM: Cathedral (SM Cath)
 -- 59 = SM: Graveyard (SM GY)
--- 60 = Eye of the Storm
--- 61 = TK: The Eye
--- 62 = Black Temple (BT)
--- 63 = Zul'Aman (ZA)
 -- 64 = Doom Lord Kazzak
--- 65 = Doomwalker
--- 66 = Skettis
--- 67 = Magisters' Terrace
--- 68 = Sunwell Plateau
--- 69 = Caverns of Time: Stratholme Past
--- 70 = Utgarde Keep: Utgarde Keep
--- 71 = Utgarde Keep: Utgarde Pinnacle
--- 72 = The Nexus: The Nexus
--- 73 = The Nexus: The Oculus
--- 74 = The Nexus: The Eye of Eternity
--- 75 = Azjol-Nerub: The Upper Kingdom
--- 76 = Azjol-Nerub: Ahn'kahet: The Old Kingdom
--- 77 = Ulduar: Halls of Stone
--- 78 = Ulduar: Halls of Lightning
--- 79 = The Obsidian Sanctum
--- 80 = Drak'Tharon Keep
--- 81 = Zul'Drak: Gundrak
--- 82 = The Violet Hold
--- 83 = Strand of the Ancients (SotA)
--- 84 = Naxxramas (Naxx)
--- 85 = Vault of Archavon (VoA)
--- 86 = Ulduar
--- 87 = Trial of the Champion (ToC)
--- 88 = Trial of the Crusader (ToC)
--- 89 = Isle of Conquest (IoC)
--- 90 = Forge of Souls (FoS)
--- 91 = Pit of Saron (PoS)
--- 92 = Halls of Reflection (HoR)
--- 93 = Icecrown Citadel (ICC)
--- 94 = Ruby Sanctum (RS)
+-- 95 = Glittermurk Mines (GMM)
+-- 96 = Baradin Hold (BH)
+-- 97 = Stonetalon Caverns (STC)
 
 

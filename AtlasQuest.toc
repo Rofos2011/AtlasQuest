@@ -1,10 +1,10 @@
 ﻿## Interface: 30300
-## Title: AtlasQuest
-## Title-deDE: AtlasQuest
-## Title-koKR: AtlasQuest
-## Title-zhCN: AtlasQuest 副本任务
-## Title-zhTW: |cFFff69b4[任務]|r副本任務 AtlasQuest
-## Title-ruRU: Атлас |r|cFF0099FF[Задания]|r
+## Title: AtlasQuest |cffFF4500ProjectEpoch|r
+## Title-deDE: AtlasQuest |cffFF4500ProjectEpoch|r
+## Title-koKR: AtlasQuest |cffFF4500ProjectEpoch|r
+## Title-zhCN: AtlasQuest |cffFF4500ProjectEpoch|r 副本任务
+## Title-zhTW: |cFFff69b4[任務]|r副本任務 AtlasQuest |cffFF4500ProjectEpoch|r
+## Title-ruRU: Атлас |r|cFF0099FF[Задания]|r |cffFF4500ProjectEpoch|r
 ## Notes: Shows the Quests for dungeons and battlegrounds.
 ## Notes-deDE: Zeigt die Quests, die es für die jeweiligen Instanzen gibt.
 ## Notes-koKR: Shows the Quests for the instance.
