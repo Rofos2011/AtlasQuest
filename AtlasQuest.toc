@@ -16,6 +16,7 @@
 ## Updated by: Loather
 ## Updated by: Rabidmax
 ## Updated by: Thandrenn (aka Mystery8)
+## Updated by: Rofos2011
 ## CLI by: Dazerdude
 ## Version: 4.4.3
 ## X-eMail: mystery8@gmail.com
