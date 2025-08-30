@@ -3,14 +3,14 @@ This is a modified version of AtlasQuest that contains Project Epoch custom data
 > [!WARNING]
 > This is a WIP Addon!
 # Installation
-1. Download Latest Version
+1. Download the Latest Version
 2. Unpack the Zip file to your /Interface/Addons Epoch WoW Folder
 3. Rename the AtlasQuest-main folder to AtlasQuest
 4. Restart Wow
 > [!IMPORTANT]
 > Commmits required
 >
-The custom quests are mostly missing from the addon. In order for them to be added, certain quest infromation is required. If you have any info about custom Epoch quests, please provide what you're able to collect in a following template:
+The custom quests are mostly missing from the addon. In order for them to be added, certain quest info is required. If you have any info about custom Epoch quests, please provide what you're able to collect in the following template:
 - Dungeon; ```For what dungeon this quest is for```
 - Faction; ```Alliance only, Horde only or Both?```
 - Quest Name; ```Name of the Quest```
