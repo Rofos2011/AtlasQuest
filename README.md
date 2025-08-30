@@ -4,9 +4,10 @@ This is a modified version of AtlasQuest that contains Project Epoch custom data
 > This is a WIP Addon!
 # Installation
 1. Download the Latest Version
-2. Unpack the Zip file to your /Interface/Addons Epoch WoW Folder
+2. Unpack the Zip file to /Interface/Addons
 3. Rename the AtlasQuest-main folder to AtlasQuest
-4. Restart Wow
+4. Restart WoW
+# Contributing
 > [!IMPORTANT]
 > Commmits required
 >
@@ -24,10 +25,7 @@ The custom quests are mostly missing from the addon. In order for them to be add
 - Prequest (if possible) ```Was there a prequest for this quest? Name?```
 - Following quest (if possible, at least in yes/no form) ```Is there a follow-up quest? Name?```
 - Rewards ```What item rewards does the quest provide? Item name + Item type + Item Id``` 
-
-<hr/>
-
-Example:  
+# Example  
 - Dungeon:
 > The Deadmines
 - Faction:
