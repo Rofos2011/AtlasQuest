@@ -831,13 +831,33 @@ Inst7Quest5ID2 = "7000"
 Inst7Quest6Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"
 --ITEM1
 Inst7Quest6ITC1 = Itemc3;
-Inst7Quest6description1 = AQITEM_OFFHAND
-Inst7Quest6ID1 = "6898"
+Inst7Quest6description1 = AQITEM_STAFF
+Inst7Quest6ID1 = "63102"
 --ITEM1
 Inst7Quest6ITC2 = Itemc3;
-Inst7Quest6description2 = AQITEM_STAFF
-Inst7Quest6ID2 = "15109"
+Inst7Quest6description2 = AQITEM_SHIELD
+Inst7Quest6ID2 = "63103"
 
+--Quest 7 Alliance
+Inst7Quest7Rewardtext = AQNoReward
+
+--Quest 8 Alliance
+Inst7Quest8Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"
+--ITEM1
+Inst7Quest8ITC1 = Itemc3;
+Inst7Quest8description1 = AQITEM_OFFHAND
+Inst7Quest8ID1 = "6898"
+--ITEM1
+Inst7Quest8ITC2 = Itemc3;
+Inst7Quest8description2 = AQITEM_STAFF
+Inst7Quest8ID2 = "15109"
+
+--Quest 9 Alliance
+Inst7Quest9Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst7Quest9ITC1 = Itemc4;
+Inst7Quest9description1 = AQITEM_TWOHAND..AQITEM_MACE
+Inst7Quest9ID1 = "6953"
 
 --Quest 1 Horde
 Inst7Quest1Rewardtext_HORDE = AQNoReward

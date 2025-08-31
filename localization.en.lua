@@ -29,24 +29,25 @@
 local GREY = "|cff999999";
 local RED = "|cffff0000";
 local REDA = "|cffcc6666";
-local WHITE = "|cffFFFFFF";
+local WHITE = "|cffFFFFFF";    -- also priest colour
 local GREEN = "|cff1eff00";
 local PURPLE = "|cff9F3FFF";
 local BLUE = "|cff0070dd";
 local ORANGE = "|cffFF8400";
 local YELLOW = "|cffFFd200";   -- Ingame Yellow
-local EPOCH = "|cffFF4500";
+local PINK = "|cffff80ff";
+local EPOCH = "|cffFF4500";    -- for colouring custom stuff
 
 -- CLASS COLOURS --
 
 local warrior = "|cffC69B6D";  -- warrior brown
 local warlock = "|cff8788EE";  -- warlock purple
-local shaman = "|cff0070DD";  -- shaman blue
+local shaman = "|cff0070DD";   -- shaman blue
 local paladin = "|cffF48CBA";  -- paladin pink
-local rogue = "|cffFFF468";  -- rogue yellow
-local druid = "|cffFF7C0A";  -- druid orange
-local mage = "|cff3FC7EB";  -- mage blue
-local hunter = "|cffAAD372";  -- hunter green
+local rogue = "|cffFFF468";    -- rogue yellow
+local druid = "|cffFF7C0A";    -- druid orange
+local mage = "|cff3FC7EB";     -- mage blue
+local hunter = "|cffAAD372";   -- hunter green
 
 ---------------
 --- OPTIONS ---
@@ -184,8 +185,8 @@ Inst36QAH = "No Quests"
 
 Inst1Story = "Once the greatest gold production center in the human lands, the Dead Mines were abandoned when the Horde razed Stormwind city during the First War. Now the Defias Brotherhood has taken up residence and turned the dark tunnels into their private sanctum. It is rumored that the thieves have conscripted the clever goblins to help them build something terrible at the bottom of the mines - but what that may be is still uncertain. Rumor has it that the way into the Deadmines lies through the quiet, unassuming village of Moonbrook."
 Inst1Caption = "Deadmines"
-Inst1QAA = "7 Quests" -- how many quests for alliance
-Inst1QAH = "1 Quest" -- for horde
+Inst1QAA = "8 Quests" -- how many quests for alliance
+Inst1QAH = "2 Quest" -- for horde
 
 --Quest 1 Alliance
 Inst1Quest1 = "1. Red Silk Bandanas"
@@ -281,10 +282,21 @@ Inst1Quest7_Prequest = "None"
 Inst1Quest7_Folgequest = "Bazil Thredd"
 -- No Rewards for this quest
 
+--Quest 8 Alliance
+Inst1Quest8 = "8. Defias Ducat "..EPOCH.."(New)"
+Inst1Quest8_Level = "60"
+Inst1Quest8_Attain = "15"
+Inst1Quest8_Aim = "Take the Defias Ducat to Altadena in Booty Bay."
+Inst1Quest8_Location = "Defias Ducat (Lies on the floor of the barn in Moonbrook where you enter the cave complex; "..BLUE.."[A]"..WHITE.." of the Deadmines Entrance map)"
+Inst1Quest8_Note = "As you enter the barn ("..BLUE.."[A]"..WHITE.." on the entrance map), turn left and follow straight. Before you reach the stairs, turn right twice. The Defias Ducat lies on the floor ("..YELLOW.."40,82"..WHITE..") and is an interactable object. Interact with it and the item that starts the quest will appear in your bags.\n\nDeliver it to Altadena ("..YELLOW.."28,77"..WHITE..") in the store 'Deep South Tannery' in Booty Bay - Stranglethorn Vale."
+Inst1Quest8_Prequest = "None"
+Inst1Quest8_Folgequest = "None"
+-- No Rewards for this quest
+
 --Quest 1 Horde
 Inst1Quest1_HORDE = "1. Foreign Techonlogy "..EPOCH.."(New)"
 Inst1Quest1_HORDE_Level = "19"
-Inst1Quest1_HORDE_Attain = "??"
+Inst1Quest1_HORDE_Attain = "17"
 Inst1Quest1_HORDE_Aim = "Infiltrate The Deadmines and bring the Cognation Reconstructor to Traugh at The Crossroads"
 Inst1Quest1_HORDE_Location = "Traugh (The Barrens - The Crossroads; "..YELLOW.."51.28"..WHITE..".)"
 Inst1Quest1_HORDE_Note = "Cognation Reconstructor drops from Glinid "..YELLOW.."[5]"..WHITE.."."
@@ -296,7 +308,16 @@ Inst1Quest1name1_HORDE = "Boots of the Mine"
 Inst1Quest1name2_HORDE = "Spelunker's Chestguard"
 Inst1Quest1name3_HORDE = "Extra Sturdy Pauldrons"
 
-
+--Quest 2 Horde  (same as Quest 8 Alliance)
+Inst1Quest2_HORDE = "2. Defias Ducat "..EPOCH.."(New)"
+Inst1Quest2_HORDE_Level = Inst1Quest8_Level
+Inst1Quest2_HORDE_Attain = Inst1Quest8_Attain
+Inst1Quest2_HORDE_Aim = Inst1Quest8_Aim
+Inst1Quest2_HORDE_Location = Inst1Quest8_Location
+Inst1Quest2_HORDE_Note = Inst1Quest8_Note
+Inst1Quest2_HORDE_Prequest = Inst1Quest8_Prequest
+Inst1Quest2_HORDE_Folgequest = Inst1Quest8_Folgequest
+-- No Rewards for this quest
 
 --------------- INST2 - Wailing Caverns (WC) ---------------
 
@@ -1344,8 +1365,8 @@ Inst5Quest19name1_HORDE = "Brewfest Prize Token"
 
 Inst7Story = "Situated along the Zoram Strand of Ashenvale, Blackfathom Deeps was once a glorious temple dedicated to the night elves' moon-goddess, Elune. However, the great Sundering shattered the temple - sinking it beneath the waves of the Veiled Sea. There it remained untouched - until, drawn by its ancient power - the naga and satyr emerged to plumb its secrets. Legends hold that the ancient beast, Aku'mai, has taken up residence within the temple's ruins. Aku'mai, a favored pet of the primordial Old Gods, has preyed upon the area ever since. Drawn to Aku'mai's presence, the cult known as the Twilight's Hammer has also come to bask in the Old Gods' evil presence."
 Inst7Caption = "Blackfathom Deeps"
-Inst7QAA = "6 Quests"
-Inst7QAH = "5 Quests"
+Inst7QAA = "9 Quests"
+Inst7QAH = "6 Quests"
 
 --Quest 1 Alliance
 Inst7Quest1 = "1. Knowledge in the Deeps"
@@ -1412,18 +1433,54 @@ Inst7Quest5name1 = "Nimbus Boots"
 Inst7Quest5name2 = "Heartwood Girdle"
 
 --Quest 6 Alliance
-Inst7Quest6 = "6. The Orb of Soran'ruk "..warlock.."(Warlock)"
-Inst7Quest6_Level = "25"
-Inst7Quest6_Attain = "20"
-Inst7Quest6_Aim = "Find 3 Soran'ruk Fragments and 1 Large Soran'ruk Fragment and return them to Doan Karhan in the Barrens."
-Inst7Quest6_Location = "Doan Karhan (Barrens; "..YELLOW.."49,57"..WHITE..")"
-Inst7Quest6_Note = ""..warlock.."WARLOCK"..WHITE.." ONLY! You get the 3 Soran'ruk Fragments from Twilight Accolytes in "..YELLOW.."[Blackfathom Deeps]"..WHITE..". You get the Large Soran'ruk Fragment in "..YELLOW.."[Shadowfang Keep]"..WHITE.." from Shadowfang Darksouls."
-Inst7Quest6_Prequest = "None"
+Inst7Quest6 = "6. The Troesta Stone "..EPOCH.."(New)"
+Inst7Quest6_Level = "23"
+Inst7Quest6_Attain = "16"
+Inst7Quest6_Aim = "Collect the Troesta Stone tablet from Twilight Lord Kelris in Blackfathom Depths"
+Inst7Quest6_Location = "Archaeologist Hollee (Ashenvale - Auberdine; "..YELLOW.."37,41"..WHITE..")"
+Inst7Quest6_Note = "The quest chain stars in Westfall at ("..YELLOW.."29,26"..WHITE..") by opening the Sunken Chest.\n\nTwilight Lord Kelris is at "..YELLOW.."[8]"..WHITE..". You find Archaeologist Hollee in Ashenvale - Auberdine ("..YELLOW.."37,41"..WHITE.."). \n\nATTENTION! If you turn on the flames beside Lord Kelris, enemies appear and attack you."
+Inst7Quest6_Prequest = "Sunken Chest > The Ersotta Stone > The Storeta Stone"
 Inst7Quest6_Folgequest = "None"
 --
-Inst7Quest6name1 = "Orb of Soran'ruk"
-Inst7Quest6name2 = "Staff of Soran'ruk"
+Inst7Quest6name1 = "Staff of Serendipity"
+Inst7Quest6name2 = "Surveyor's Shield"
 
+--Quest 7 Alliance
+Inst7Quest7 = "7. Solarsal Report "..EPOCH.."(New)"
+Inst7Quest7_Level = "27"
+Inst7Quest7_Attain = "20"
+Inst7Quest7_Aim = "Bring the report to someone in Astranaar."
+Inst7Quest7_Location = "Solarsal Report (drops from Lady Sarevess; "..YELLOW.."[3]"..WHITE..")"
+Inst7Quest7_Note = "The item that starts the quest drops from Lady Sarevess; "..YELLOW.."[3]"..WHITE..". You deliver the scroll to Shindrell Swiftfire ("..YELLOW.."34,48"..WHITE..") in Astranaar, Ashenvale."
+Inst7Quest7_Prequest = "None"
+Inst7Quest7_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 8 Alliance
+Inst7Quest8 = "8. The Orb of Soran'ruk "..warlock.."(Warlock)"
+Inst7Quest8_Level = "25"
+Inst7Quest8_Attain = "20"
+Inst7Quest8_Aim = "Find 3 Soran'ruk Fragments and 1 Large Soran'ruk Fragment and return them to Doan Karhan in the Barrens."
+Inst7Quest8_Location = "Doan Karhan (Barrens; "..YELLOW.."49,57"..WHITE..")"
+Inst7Quest8_Note = ""..warlock.."WARLOCK"..WHITE.." ONLY! You get the 3 Soran'ruk Fragments from Twilight Accolytes in "..YELLOW.."[Blackfathom Deeps]"..WHITE..". You get the Large Soran'ruk Fragment in "..YELLOW.."[Shadowfang Keep]"..WHITE.." from Shadowfang Darksouls."
+Inst7Quest8_Prequest = "None"
+Inst7Quest8_Folgequest = "None"
+--
+Inst7Quest8name1 = "Orb of Soran'ruk"
+Inst7Quest8name2 = "Staff of Soran'ruk"
+
+Inst7Quest9 = "9. The Test of Righteousness "..paladin.."(Paladin)"
+Inst7Quest9_Level = "22"
+Inst7Quest9_Attain = "20"
+Inst7Quest9_Aim = "Using Jordan's Weapon Notes, find some Whitestone Oak Lumber, Bailor's Refined Ore Shipment, Jordan's Smithing Hammer, and a Kor Gem, and return them to Jordan Stilwell in Ironforge."
+Inst7Quest9_Location = "Jordan Stilwell (Dun Morogh - Ironforge Entrance; "..YELLOW.."52,36"..WHITE..")"
+Inst7Quest9_Note = ""..paladin.."PALADIN "..WHITE.."ONLY!\n\n1. To see the note click on "..YELLOW.."[The Test of Righteousness Information]"..WHITE.."."
+Inst7Quest9_Page = {2, ""..paladin.."PALADIN "..WHITE.."ONLY!\n\n1. You get the  Whitestone Oak Lumber from Goblin Woodcarvers in "..YELLOW.."[Deadmines]"..WHITE.." near "..YELLOW.."[3]"..WHITE..".\n\n2. To get the Bailor's Refined Ore Shipment you must talk to Bailor Stonehand (Loch Modan - Thelsamar; "..YELLOW.."35,44"..WHITE.."). He gives you the 'Bailor's Ore Shipment' quest. You find the Jordan's Ore Shipment behind a tree at "..YELLOW.."71,21"..WHITE.."\n\n3. You get Jordan's Smithing Hammer in "..YELLOW.."[Shadowfang Keep]"..WHITE.." at "..YELLOW.."[3]"..WHITE..".\n\n4. To get a Kor Gem you have to go to Thundris Windweaver (Darkshore - Auberdine; "..YELLOW.."37,40"..WHITE..") and do the 'Seeking the Kor Gem' quest. For this quest, you must kill Blackfathom oracles or priestesses before "..YELLOW.."[Blackfathom Deeps]"..WHITE..". They drop a corrupted Kor Gem. Thundris Windweaver will clean it for you.", };
+Inst7Quest9_Prequest = "The Tome of Valor -> The Test of Righteousness"
+Inst7Quest9_Folgequest = "The Test of Righteousness"
+Inst7Quest9PreQuest = "true"
+--
+Inst7Quest9name1 = "Verigan's Fist"
 
 --Quest 1 Horde
 Inst7Quest1_HORDE = "1. The Essence of Aku'Mai"
@@ -1487,19 +1544,18 @@ Inst7Quest5_HORDE_Folgequest = "None"
 Inst7Quest5name1_HORDE = "Gravestone Scepter"
 Inst7Quest5name2_HORDE = "Arctic Buckler"
 
---Quest 6 Horde  (same as Quest 6 Alliance)
+--Quest 6 Horde  (same as Quest 8 Alliance)
 Inst7Quest6_HORDE = "6. The Orb of Soran'ruk "..warlock.."(Warlock)"
-Inst7Quest6_HORDE_Level = Inst7Quest6_Level
-Inst7Quest6_HORDE_Attain = Inst7Quest6_Attain
-Inst7Quest6_HORDE_Aim = Inst7Quest6_Aim
-Inst7Quest6_HORDE_Location = Inst7Quest6_Location
-Inst7Quest6_HORDE_Note = Inst7Quest6_Note
-Inst7Quest6_HORDE_Prequest = Inst7Quest6_Prequest
-Inst7Quest6_HORDE_Folgequest = Inst7Quest6_Folgequest
+Inst7Quest6_HORDE_Level = Inst7Quest8_Level
+Inst7Quest6_HORDE_Attain = Inst7Quest8_Attain
+Inst7Quest6_HORDE_Aim = Inst7Quest8_Aim
+Inst7Quest6_HORDE_Location = Inst7Quest8_Location
+Inst7Quest6_HORDE_Note = Inst7Quest8_Note
+Inst7Quest6_HORDE_Prequest = Inst7Quest8_Prequest
+Inst7Quest6_HORDE_Folgequest = Inst7Quest8_Folgequest
 --
-Inst7Quest6name1_HORDE = Inst7Quest6name1
-Inst7Quest6name2_HORDE = Inst7Quest6name2
-
+Inst7Quest6name1_HORDE = Inst7Quest8name1
+Inst7Quest6name2_HORDE = Inst7Quest8name2
 
 
 --------------- INST8 - Lower Blackrock Spire (LBRS) ---------------
@@ -3290,7 +3346,7 @@ Inst21Quest3_Level = "80"
 Inst21Quest3_Attain = "75"
 Inst21Quest3_Aim = "Bring the Faded Lovely Greeting Card to Inspector Snip Snagglebolt in Stormwind."
 Inst21Quest3_Location = "Drops from Apothecary Hummel in Shadowfang Keep once per character."
-Inst21Quest3_Note = "This quest is for the Love is in the Air seasonal event.\n\nInspector Snip Snagglebolt is at (Stormwind City - Trade District; "..YELLOW.."61.7, 75.5"..WHITE..")."
+Inst21Quest3_Note = ""..PINK.."This quest is for the Love is in the Air seasonal event."..WHITE.."\n\nInspector Snip Snagglebolt is at (Stormwind City - Trade District; "..YELLOW.."61.7, 75.5"..WHITE..")."
 Inst21Quest3_Prequest = "None"
 Inst21Quest3_Folgequest = "None"
 -- No Rewards for this quest
@@ -3353,7 +3409,7 @@ Inst21Quest5_HORDE_Level = "80"
 Inst21Quest5_HORDE_Attain = "75"
 Inst21Quest5_HORDE_Aim = "Bring the Faded Lovely Greeting Card to Detective Snap Snagglebolt in Orgrimmar."
 Inst21Quest5_HORDE_Location = "Drops from Apothecary Hummel in Shadowfang Keep once per character."
-Inst21Quest5_HORDE_Note = "This quest is for the Love is in the Air seasonal event.\n\nDetective Snap Snagglebol is at (Orgrimmar - Valley of Strength; "..YELLOW.."50.8, 65.6"..WHITE..")."
+Inst21Quest5_HORDE_Note = ""..PINK.."This quest is for the Love is in the Air seasonal event."..WHITE.."\n\nDetective Snap Snagglebol is at (Orgrimmar - Valley of Strength; "..YELLOW.."50.8, 65.6"..WHITE..")."
 Inst21Quest5_HORDE_Prequest = "None"
 Inst21Quest5_HORDE_Folgequest = "None"
 -- No Rewards for this quest

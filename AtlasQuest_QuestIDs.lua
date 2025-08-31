@@ -57,8 +57,10 @@ Inst1Quest4_QuestID = "2040"
 Inst1Quest5_QuestID = "166"
 Inst1Quest6_QuestID = "1654"
 Inst1Quest7_QuestID = "373"
+Inst1Quest8_QuestID = "26139"
 
 Inst1Quest1_HORDE_QuestID = "27167"
+Inst1Quest2_HORDE_QuestID = "26139"
 
 AQ_214_Level = "17"
 AQ_168_Level = "18"
@@ -67,6 +69,7 @@ AQ_2040_Level = "20"
 AQ_166_Level = "22"
 AQ_1654_Level = "22"
 AQ_373_Level = "22"
+AQ_26139_Level = "60"
 
 
 
@@ -251,7 +254,10 @@ Inst7Quest2_QuestID = "1275"
 Inst7Quest3_QuestID = "1198"
 Inst7Quest4_QuestID = "1200"
 Inst7Quest5_QuestID = "1199"
-Inst7Quest6_QuestID = "1740"
+Inst7Quest6_QuestID = "27228"
+Inst7Quest7_QuestID = "27053"
+Inst7Quest8_QuestID = "1740"
+Inst7Quest9_QuestID = "1654"
 
 Inst7Quest1_HORDE_QuestID = "6563"
 Inst7Quest2_HORDE_QuestID = "6564"
@@ -272,7 +278,9 @@ AQ_6564_Level = "22"
 AQ_6921_Level = "27"
 AQ_6922_Level = "30"
 AQ_6561_Level = "27"
-
+AQ_27228_Level = "23"
+AQ_27053_Level = "27"
+AQ_1654_Level = "22"
 
 
 --------------- INST8 - Lower Blackrock Spire (LBRS) ---------------

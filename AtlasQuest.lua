@@ -38,6 +38,7 @@ local BLACK = "|c0000000f";
 local DARKGREEN = "|cff008000";
 local BLUB = "|cffd45e19";
 local EPOCH = "|cffFF4500";
+local DGREEN = "|cff00991a";
 
 -- Quest Color
 local Grau = "|cff9d9d9d"
@@ -70,7 +71,7 @@ local AQMAXINSTANCES = "94"
 local AQMAXQUESTS = "20"
 
 -- Set title for AtlasQuest side panel
-ATLASQUEST_VERSION = ""..EPOCH.."AtlasQuest Epoch v0.0.1";
+ATLASQUEST_VERSION = "AtlasQuest "..EPOCH.."Epoch "..DGREEN.."v0.0.2";
 
 AQ_ShownSide = "Left"
 AQAtlasAuto = 1;
@@ -79,7 +80,7 @@ AtlasQuestHelp = {};
 AtlasQuestHelp[1] = "[/aq + available command: help, left/right, show/hide, autoshow\ndownload adress:\nhttp://ui.worldofwar.net/ui.php?id=3069, http://www.curse-gaming.com/de/wow/addons-4714-1-atlasquest.html]";
 
 local AtlasQuest_Defaults = {
-  ["Version"] =  "5.0.1",
+  ["Version"] =  "0.0.2",
   [UnitName("player")] = {
     ["ShownSide"] = "Left",
     ["AtlasAutoShow"] = 1,
