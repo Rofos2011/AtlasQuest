@@ -3,9 +3,9 @@ This is a modified version of AtlasQuest that contains Project Epoch custom data
 > [!WARNING]
 > This is a WIP Addon!
 # Installation
-1. Download the Latest Version
-2. Unpack the Zip file to /Interface/Addons
-3. Rename the AtlasQuest-main folder to AtlasQuest
+1. Download the Archive
+2. Unpack the Zip file to your ProjectEpoch's ```/Interface/Addons``` folder
+3. Rename the folder to AtlasQuest
 4. Restart WoW
 # Contributing
 > [!IMPORTANT]
