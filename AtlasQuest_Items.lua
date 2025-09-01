@@ -307,7 +307,12 @@ Inst3Quest4ID4_HORDE = "15444"
 --Quest 5 Horde
 Inst3Quest5Rewardtext_HORDE = AQNoReward
 
-
+--Quest 6 Horde
+Inst3Quest6Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst3Quest6ITC1_HORDE = Itemc4;
+Inst3Quest6description1_HORDE = AQITEM_TWOHAND..AQITEM_MACE
+Inst3Quest6ID1_HORDE = "60742"
 
 --------------- INST4 - Uldaman (ULD) ---------------
 
@@ -909,6 +914,12 @@ Inst7Quest6ITC2_HORDE = Itemc3;
 Inst7Quest6description2_HORDE = AQITEM_STAFF
 Inst7Quest6ID2_HORDE = "15109"
 
+--Quest 7 Horde
+Inst7Quest7Rewardtext_HORDE = Inst3Quest6Rewardtext_HORDE
+--ITEM1
+Inst7Quest7ITC1_HORDE = Inst3Quest6ITC1_HORDE
+Inst7Quest7description1_HORDE = Inst3Quest6description1_HORDE
+Inst7Quest7ID1_HORDE = Inst3Quest6ID1_HORDE
 
 
 --------------- INST8 - Lower Blackrock Spire (LBRS) ---------------
@@ -1733,18 +1744,21 @@ Inst18Quest4description3_HORDE = AQITEM_SHIELD
 Inst18Quest4ID3_HORDE = "6725"
 
 --Quest 5 Horde
-Inst18Quest5Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"
---ITEM1
-Inst18Quest5ITC1_HORDE = Itemc4;
-Inst18Quest5description1_HORDE = AQITEM_NECK
-Inst18Quest5ID1_HORDE = "63076"
---ITEM2
-Inst18Quest5ITC2_HORDE = Itemc4;
-Inst18Quest5description2_HORDE = AQITEM_NECK
-Inst18Quest5ID2_HORDE = "63077"
+Inst18Quest5Rewardtext_HORDE = AQNoReward
 
 --Quest 6 Horde
-Inst18Quest6Rewardtext_HORDE = AQNoReward
+Inst18Quest6Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"
+--ITEM1
+Inst18Quest6ITC1_HORDE = Itemc4;
+Inst18Quest6description1_HORDE = AQITEM_NECK
+Inst18Quest6ID1_HORDE = "63076"
+--ITEM2
+Inst18Quest6ITC2_HORDE = Itemc4;
+Inst18Quest6description2_HORDE = AQITEM_NECK
+Inst18Quest6ID2_HORDE = "63077"
+
+--Quest 7 Horde
+Inst18Quest7Rewardtext_HORDE = AQNoReward
 
 
 
@@ -2186,7 +2200,14 @@ Inst21Quest4description2_HORDE = AQITEM_STAFF
 Inst21Quest4ID2_HORDE = "15109"
 
 --Quest 5 Horde
-Inst21Quest5Rewardtext_HORDE = AQNoReward
+Inst21Quest5Rewardtext_HORDE = Inst3Quest6Rewardtext_HORDE
+--ITEM1
+Inst21Quest5ITC1_HORDE = Inst3Quest6ITC1_HORDE
+Inst21Quest5description1_HORDE = Inst3Quest6description1_HORDE
+Inst21Quest5ID1_HORDE = Inst3Quest6ID1_HORDE
+
+--Quest 6 Horde
+--Inst21Quest6Rewardtext_HORDE = AQNoReward
 
 
 

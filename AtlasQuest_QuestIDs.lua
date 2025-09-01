@@ -107,14 +107,14 @@ Inst3Quest2_HORDE_QuestID = "5725"
 Inst3Quest3_HORDE_QuestID = "5722"
 Inst3Quest4_HORDE_QuestID = "5728"
 Inst3Quest5_HORDE_QuestID = "5761"
-
+Inst3Quest6_HORDE_QuestID = "26312"
 
 AQ_5723_Level = "15"
 AQ_5725_Level = "16"
 AQ_5722_Level = "16"
 AQ_5728_Level = "16"
 AQ_5761_Level = "16"
-
+AQ_26312_Level = "22"
 
 
 --------------- INST4 - Uldaman (Ulda) ---------------
@@ -513,8 +513,9 @@ Inst18Quest1_HORDE_QuestID = "1221"
 Inst18Quest2_HORDE_QuestID = "1144"
 Inst18Quest3_HORDE_QuestID = "1109"
 Inst18Quest4_HORDE_QuestID = "1102"
-Inst18Quest5_HORDE_QuestID = "27201"
-Inst18Quest6_HORDE_QuestID = "1838"
+Inst18Quest5_HORDE_QuestID = "6522"
+Inst18Quest6_HORDE_QuestID = "27201"
+Inst18Quest7_HORDE_QuestID = "1838"
 
 
 AQ_1221_Level = "26"
@@ -525,6 +526,7 @@ AQ_1701_Level = "28"
 AQ_1109_Level = "33"
 AQ_1102_Level = "34"
 AQ_1838_Level = "30"
+AQ_6522_Level = "36"
 AQ_27201_Level = "30"
 
 
@@ -645,7 +647,8 @@ Inst21Quest1_HORDE_QuestID = "1098"
 Inst21Quest2_HORDE_QuestID = "1013"
 Inst21Quest3_HORDE_QuestID = "1014"
 Inst21Quest4_HORDE_QuestID = "1740"
-Inst21Quest5_HORDE_QuestID = "14483"
+Inst21Quest5_HORDE_QuestID = "26312"
+Inst21Quest6_HORDE_QuestID = "14483"
 
 
 --AQ_1654_Level = "22"  -- Already used for Deadmines. Left here just for the note.
@@ -654,6 +657,7 @@ AQ_24745_Level = "80"
 AQ_1098_Level = "25"
 AQ_1013_Level = "26"
 AQ_1014_Level = "27"
+AQ_26312_Level = "22"
 AQ_14483_Level = "80"
 
 

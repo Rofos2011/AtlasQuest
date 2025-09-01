@@ -487,7 +487,7 @@ Inst2Quest7name2_HORDE = Inst2Quest5name2
 Inst3Story = "Ragefire Chasm consists of a network of volcanic caverns that lie below the orcs' new capital city of Orgrimmar. Recently, rumors have spread that a cult loyal to the demonic Shadow Council has taken up residence within the Chasm's fiery depths. This cult, known as the Burning Blade, threatens the very sovereignty of Durotar. Many believe that the orc Warchief, Thrall, is aware of the Blade's existence and has chosen not to destroy it in the hopes that its members might lead him straight to the Shadow Council. Either way, the dark powers emanating from Ragefire Chasm could undo all that the orcs have fought to attain."
 Inst3Caption = "Ragefire Chasm"
 Inst3QAA = "No Quests"
-Inst3QAH = "5 Quests"
+Inst3QAH = "6 Quests"
 
 --Quest 1 Horde
 Inst3Quest1_HORDE = "1. Testing an Enemy's Strength"
@@ -554,6 +554,18 @@ Inst3Quest5_HORDE_Prequest = "None"
 Inst3Quest5_HORDE_Folgequest = "None"
 -- No Rewards for this quest
 
+Inst3Quest6_HORDE = "6. Materials of the Light "..paladin.."(Paladin)"
+Inst3Quest6_HORDE_Level = "22"
+Inst3Quest6_HORDE_Attain = "20"
+Inst3Quest6_HORDE_Aim = "Using Aturk's Material List, find some Blessed Ingots, Zelemar's Hammer, a Silver Hand Medallion and a Kor Gem. Bring them to Aturk the Anvil in Orgrimmar."
+Inst3Quest6_HORDE_Location = "The Fallen Knight (Undercity - War Quarter; "..YELLOW.."52,31"..WHITE..") ->\n\nAturk the Anvil (Orgrimmar - Valley of Honor; "..YELLOW.."80,23"..WHITE..")"
+Inst3Quest6_HORDE_Note = ""..paladin.."PALADIN "..WHITE.."ONLY!\n\n1. To see the list click on "..YELLOW.."[Materials of the Light]"..WHITE.."."
+Inst3Quest6_HORDE_Page = {2, ""..paladin.."PALADIN "..WHITE.."ONLY!\n\n1. You get the Springvale's Blessed Ingots from a crate in the same room you fight Commander Springvale in "..YELLOW.."[Shadowfang Keep]"..WHITE.." near "..YELLOW.."[6]"..WHITE..".\n\n2. To get the Silver Hand Medallion Go to Stonetalon Mountains and kill Venture Co. goblins in Windshear Crag.\n\n3. You get Zelemar's Hammer from Zelemar the Wrathful in "..YELLOW.."[Ragefire Chasm]"..WHITE.." at "..YELLOW.."[3]"..WHITE..". Click on the Blood Filled Orb to summon him.\n\n4. To get the last item, kill Blackfathom oracles or priestesses before "..YELLOW.."[Blackfathom Deeps]"..WHITE..". They drop the Corrupted Kor Gem.", };
+Inst3Quest6_HORDE_Prequest = "Trial of the Willing -> Materials of the Light (Undercity)"
+Inst3Quest6_HORDE_Folgequest = "Materials of the Light"
+Inst3Quest6_HORDEPreQuest = "true"
+--
+Inst3Quest6name1_HORDE = "Admonisher of the Fallen Knight"
 
 
 --------------- INST4 - Uldaman (Ulda) ---------------
@@ -1366,7 +1378,7 @@ Inst5Quest19name1_HORDE = "Brewfest Prize Token"
 Inst7Story = "Situated along the Zoram Strand of Ashenvale, Blackfathom Deeps was once a glorious temple dedicated to the night elves' moon-goddess, Elune. However, the great Sundering shattered the temple - sinking it beneath the waves of the Veiled Sea. There it remained untouched - until, drawn by its ancient power - the naga and satyr emerged to plumb its secrets. Legends hold that the ancient beast, Aku'mai, has taken up residence within the temple's ruins. Aku'mai, a favored pet of the primordial Old Gods, has preyed upon the area ever since. Drawn to Aku'mai's presence, the cult known as the Twilight's Hammer has also come to bask in the Old Gods' evil presence."
 Inst7Caption = "Blackfathom Deeps"
 Inst7QAA = "9 Quests"
-Inst7QAH = "6 Quests"
+Inst7QAH = "7 Quests"
 
 --Quest 1 Alliance
 Inst7Quest1 = "1. Knowledge in the Deeps"
@@ -1441,6 +1453,7 @@ Inst7Quest6_Location = "Archaeologist Hollee (Ashenvale - Auberdine; "..YELLOW..
 Inst7Quest6_Note = "The quest chain stars in Westfall at ("..YELLOW.."29,26"..WHITE..") by opening the Sunken Chest.\n\nTwilight Lord Kelris is at "..YELLOW.."[8]"..WHITE..". You find Archaeologist Hollee in Ashenvale - Auberdine ("..YELLOW.."37,41"..WHITE.."). \n\nATTENTION! If you turn on the flames beside Lord Kelris, enemies appear and attack you."
 Inst7Quest6_Prequest = "Sunken Chest > The Ersotta Stone > The Storeta Stone"
 Inst7Quest6_Folgequest = "None"
+Inst7Quest6PreQuest = "true"
 --
 Inst7Quest6name1 = "Staff of Serendipity"
 Inst7Quest6name2 = "Surveyor's Shield"
@@ -1557,6 +1570,18 @@ Inst7Quest6_HORDE_Folgequest = Inst7Quest8_Folgequest
 Inst7Quest6name1_HORDE = Inst7Quest8name1
 Inst7Quest6name2_HORDE = Inst7Quest8name2
 
+Inst7Quest7_HORDE = "7. Materials of the Light "..paladin.."(Paladin)"
+Inst7Quest7_HORDE_Level = Inst3Quest6_HORDE_Level
+Inst7Quest7_HORDE_Attain = Inst3Quest6_HORDE_Attain
+Inst7Quest7_HORDE_Aim = Inst3Quest6_HORDE_Aim
+Inst7Quest7_HORDE_Location = Inst3Quest6_HORDE_Location
+Inst7Quest7_HORDE_Note = Inst3Quest6_HORDE_Note
+Inst7Quest7_HORDE_Page = Inst3Quest6_HORDE_Page
+Inst7Quest7_HORDE_Prequest = Inst3Quest6_HORDE_Prequest
+Inst7Quest7_HORDE_Folgequest = Inst3Quest6_HORDE_Folgequest
+Inst7Quest7_HORDEPreQuest = "true"
+--
+Inst7Quest7name1_HORDE = Inst3Quest6name1_HORDE
 
 --------------- INST8 - Lower Blackrock Spire (LBRS) ---------------
 
@@ -2683,10 +2708,10 @@ Inst18Quest2name3_HORDE = Inst18Quest3name3
 
 -- Quest 3 Horde
 Inst18Quest3_HORDE = "3. Going, Going, Guano!"
-Inst18Quest3_HORDE_Level = "29"
-Inst18Quest3_HORDE_Attain = "33"
+Inst18Quest3_HORDE_Level = "33"
+Inst18Quest3_HORDE_Attain = "30"
 Inst18Quest3_HORDE_Aim = "Bring 1 pile of Kraul Guano to Master Apothecary Faranell in the Undercity."
-Inst18Quest3_HORDE_Location = "Master Apothecary Faranell (Undercity - The Apothecarium; "..YELLOW.."48,69 "..WHITE..")"
+Inst18Quest3_HORDE_Location = "Master Apothecary Faranell (Undercity - The Apothecarium; "..YELLOW.."48,69"..WHITE..")"
 Inst18Quest3_HORDE_Note = "Kraul Guano is dropped by any of the bats found within the instance."
 Inst18Quest3_HORDE_Prequest = "None"
 Inst18Quest3_HORDE_Folgequest = "Hearts of Zeal ("..YELLOW.."[Scarlet Monastery]"..WHITE..")"
@@ -2694,8 +2719,8 @@ Inst18Quest3_HORDE_Folgequest = "Hearts of Zeal ("..YELLOW.."[Scarlet Monastery]
 
 --Quest 4 Horde
 Inst18Quest4_HORDE = "4. A Vengeful Fate"
-Inst18Quest4_HORDE_Level = "30"
-Inst18Quest4_HORDE_Attain = "34"
+Inst18Quest4_HORDE_Level = "34"
+Inst18Quest4_HORDE_Attain = "29"
 Inst18Quest4_HORDE_Aim = "Bring Razorflank's Heart to Auld Stonespire in Thunder Bluff."
 Inst18Quest4_HORDE_Location = "Auld Stonespire (Thunderbluff; "..YELLOW.."36,59"..WHITE..")"
 Inst18Quest4_HORDE_Note = "You can find Charlga Razorflank at "..YELLOW.."[7]"..WHITE.."."
@@ -2706,29 +2731,41 @@ Inst18Quest4name1_HORDE = "Berylline Pads"
 Inst18Quest4name2_HORDE = "Stonefist Girdle"
 Inst18Quest4name3_HORDE = "Marbled Buckler"
 
---Quest 5 Horde
-Inst18Quest5_HORDE = "5. The Triad Scrolls "..EPOCH.."(New)"
-Inst18Quest5_HORDE_Level = "30"
-Inst18Quest5_HORDE_Attain = "~22"
-Inst18Quest5_HORDE_Aim = "Infiltrate the Razorfen Kraul and recover the Triad Scrolls from the quilboar."
-Inst18Quest5_HORDE_Location = "Sage Elkhoof (The Barrens - Camp Taurajo; "..YELLOW.."44,58"..WHITE..")"
-Inst18Quest5_HORDE_Note = "The Founding of Thunder Bluff drops at "..YELLOW.."[placeholder a]"..WHITE..", \nthe Founding of Camp Mojache drops at "..YELLOW.."[placeholder b]"..WHITE..", \nthe Founding of Sun Rock Retreat drops at "..YELLOW.."[placeholder c]"..WHITE..". Return the scrolls back to Sage Elkhoof in Camp Taurajo, The Barrens."
-Inst18Quest5_HORDE_Prequest = "Yes"
-Inst18Quest5_HORDE_Folgequest = "None"
---
-Inst18Quest5name1_HORDE = "Amulet of Memory"
-Inst18Quest5name2_HORDE = "Amulet of Vengeance"
+-- Quest 5 Horde
+Inst18Quest5_HORDE = "5. An Unholy Alliance"
+Inst18Quest5_HORDE_Level = "36"
+Inst18Quest5_HORDE_Attain = "28"
+Inst18Quest5_HORDE_Aim = "Take the Small Scroll to Bragor Bloodfist at the Royal Quarter in the Undercity."
+Inst18Quest5_HORDE_Location = "Small Scrop (drops from Charlga Razorflank; "..YELLOW.."[7]"..WHITE..")"
+Inst18Quest5_HORDE_Note = "The scroll drops from the last boss of Razorfen Kraul, Charlga Razorflank; "..YELLOW.."[7]"..WHITE..".\n\nDeliver it to Bragor Bloodfist ("..YELLOW.."xx,yy"..WHITE..") at the Royal Quarter in the Undercity. "
+Inst18Quest5_HORDE_Prequest = "None"
+Inst18Quest5_HORDE_Folgequest = "An Unholy Alliance "..YELLOW.."[Razorfen Downs]"..WHITE..""
+-- No Rewards for this quest
 
 --Quest 6 Horde
-Inst18Quest6_HORDE = "6. Brutal Armor "..warrior.."(Warrior)"
+Inst18Quest6_HORDE = "6. The Triad Scrolls "..EPOCH.."(New)"
 Inst18Quest6_HORDE_Level = "30"
-Inst18Quest6_HORDE_Attain = "20"
-Inst18Quest6_HORDE_Aim = "Bring to Thun'grim Firegaze 15 Smoky Iron Ingots, 10 Powdered Azurite, 10 Iron Bars and a Vial of Phlogiston."
-Inst18Quest6_HORDE_Location = "Thun'grim Firegaze (The Barrens; "..YELLOW.."57,30"..WHITE..")"
-Inst18Quest6_HORDE_Note = ""..warrior.."WARRIOR"..WHITE.." ONLY! You get the Vial of Phlogiston from Roogug at "..YELLOW.."[1]"..WHITE..".\n\nCompleting this quest allows you to start four new quests from the same NPC."
-Inst18Quest6_HORDE_Prequest = "Speak with Thun'grim"
-Inst18Quest6_HORDE_Folgequest = "(See Note)"
+Inst18Quest6_HORDE_Attain = "~22"
+Inst18Quest6_HORDE_Aim = "Infiltrate the Razorfen Kraul and recover the Triad Scrolls from the quilboar."
+Inst18Quest6_HORDE_Location = "Sage Elkhoof (The Barrens - Camp Taurajo; "..YELLOW.."44,58"..WHITE..")"
+Inst18Quest6_HORDE_Note = "The Founding of Thunder Bluff drops from Overlord Ramtusk "..YELLOW.."[4]"..WHITE.."; \nthe Founding of Camp Mojache drops from Aggem Thorncurse "..YELLOW.."[2]"..WHITE.."; \nthe Founding of Sun Rock Retreat drops from Death Speaker Jargba "..YELLOW.."[3]"..WHITE..".\n\nReturn the scrolls back to Sage Elkhoof in Camp Taurajo, The Barrens."
+Inst18Quest6_HORDE_Prequest = "Yes, Sage Elkhoof (The Barrens - Camp Taurajo)"
+Inst18Quest6_HORDE_Folgequest = "None"
 Inst18Quest6PreQuest_HORDE = "true"
+--
+Inst18Quest6name1_HORDE = "Amulet of Memory"
+Inst18Quest6name2_HORDE = "Amulet of Vengeance"
+
+--Quest 7 Horde
+Inst18Quest7_HORDE = "7. Brutal Armor "..warrior.."(Warrior)"
+Inst18Quest7_HORDE_Level = "30"
+Inst18Quest7_HORDE_Attain = "20"
+Inst18Quest7_HORDE_Aim = "Bring to Thun'grim Firegaze 15 Smoky Iron Ingots, 10 Powdered Azurite, 10 Iron Bars and a Vial of Phlogiston."
+Inst18Quest7_HORDE_Location = "Thun'grim Firegaze (The Barrens; "..YELLOW.."57,30"..WHITE..")"
+Inst18Quest7_HORDE_Note = ""..warrior.."WARRIOR"..WHITE.." ONLY! You get the Vial of Phlogiston from Roogug at "..YELLOW.."[1]"..WHITE..".\n\nCompleting this quest allows you to start four new quests from the same NPC."
+Inst18Quest7_HORDE_Prequest = "Speak with Thun'grim"
+Inst18Quest7_HORDE_Folgequest = "(See Note)"
+Inst18Quest7PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 
@@ -3403,15 +3440,28 @@ Inst21Quest4_HORDE_Folgequest = Inst21Quest2_Folgequest
 Inst21Quest4name1_HORDE = Inst21Quest2name1
 Inst21Quest4name2_HORDE = Inst21Quest2name1
 
+Inst21Quest5_HORDE = "5. Materials of the Light "..paladin.."(Paladin)"
+Inst21Quest5_HORDE_Level = Inst3Quest6_HORDE_Level
+Inst21Quest5_HORDE_Attain = Inst3Quest6_HORDE_Attain
+Inst21Quest5_HORDE_Aim = Inst3Quest6_HORDE_Aim
+Inst21Quest5_HORDE_Location = Inst3Quest6_HORDE_Location
+Inst21Quest5_HORDE_Note = Inst3Quest6_HORDE_Note
+Inst21Quest5_HORDE_Page = Inst3Quest6_HORDE_Page
+Inst21Quest5_HORDE_Prequest = Inst3Quest6_HORDE_Prequest
+Inst21Quest5_HORDE_Folgequest = Inst3Quest6_HORDE_Folgequest
+Inst21Quest5_HORDEPreQuest = "true"
+--
+Inst21Quest5name1_HORDE = Inst3Quest6name1_HORDE
+
 --Quest 5 Horde
-Inst21Quest5_HORDE = "5. Something is in the Air (and it Ain't Love)"
-Inst21Quest5_HORDE_Level = "80"
-Inst21Quest5_HORDE_Attain = "75"
-Inst21Quest5_HORDE_Aim = "Bring the Faded Lovely Greeting Card to Detective Snap Snagglebolt in Orgrimmar."
-Inst21Quest5_HORDE_Location = "Drops from Apothecary Hummel in Shadowfang Keep once per character."
-Inst21Quest5_HORDE_Note = ""..PINK.."This quest is for the Love is in the Air seasonal event."..WHITE.."\n\nDetective Snap Snagglebol is at (Orgrimmar - Valley of Strength; "..YELLOW.."50.8, 65.6"..WHITE..")."
-Inst21Quest5_HORDE_Prequest = "None"
-Inst21Quest5_HORDE_Folgequest = "None"
+--Inst21Quest5_HORDE = "5. Something is in the Air (and it Ain't Love)"
+--Inst21Quest5_HORDE_Level = "80"
+--Inst21Quest5_HORDE_Attain = "75"
+--Inst21Quest5_HORDE_Aim = "Bring the Faded Lovely Greeting Card to Detective Snap Snagglebolt in Orgrimmar."
+--Inst21Quest5_HORDE_Location = "Drops from Apothecary Hummel in Shadowfang Keep once per character."
+--Inst21Quest5_HORDE_Note = ""..PINK.."This quest is for the Love is in the Air seasonal event."..WHITE.."\n\nDetective Snap Snagglebol is at (Orgrimmar - Valley of Strength; "..YELLOW.."50.8, 65.6"..WHITE..")."
+--Inst21Quest5_HORDE_Prequest = "None"
+--Inst21Quest5_HORDE_Folgequest = "None"
 -- No Rewards for this quest
 
 
