@@ -167,7 +167,7 @@ function AtlasQuest_Instanzenchecken()
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas_OutdoorRaids\\Images\\Skettis")  then
 		AQINSTANZ = 66;
 
--- ProjectEpoch Dungeons
+	-- ProjectEpoch Dungeons
 
 	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\StonetalonCaverns") then
 		AQINSTANZ = 97;
@@ -295,6 +295,16 @@ function AtlasQuest_InstanzencheckAM()
 	elseif (AQALPHAMAP == "Interface\\AddOns\\AlphaMap_Battlegrounds\\Maps\\WarsongGulch") then
 		AQINSTANZ = 35;
 
+	-- ProjectEpoch Dungeons
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\StonetalonCaverns") then
+		AQINSTANZ = 97;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\BaradinHold") then
+		AQINSTANZ = 96;
+
+	elseif (AQATLASMAP == "Interface\\AddOns\\Atlas\\Images\\Maps\\GlittermurkMines") then
+		AQINSTANZ = 95;
 
 	-- Default
 

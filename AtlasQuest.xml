@@ -388,11 +388,11 @@
 <!-- AtlasQuest Panel-->
 <Frame name="AtlasQuestFrame" toplevel="false" enableMouse="true" movable="false" parent="AtlasFrame">
  <Size>
-   <AbsDimension x="198" y="520"/>
+   <AbsDimension x="230" y="520"/>
  </Size>
  <Anchors>
    <Anchor point="TOP" relativeTo="AtlasFrame">
-      <Offset><AbsDimension x="-545" y="-80"/></Offset>>
+      <Offset><AbsDimension x="-560" y="-82"/></Offset>>
    </Anchor>
  </Anchors>
  <Backdrop name="$parentBackdrop" bgFile="Interface\Minimap\TooltipBackdrop-Background" edgeFile="Interface\DialogFrame\UI-DialogBox-Border" tile="true">
@@ -532,7 +532,7 @@
  </Button>
  <Button name="AQQuestbutton1" inherits="" text="1">
    <Size>
-     <AbsDimension x="165" y="20"/>
+     <AbsDimension x="205" y="20"/>
    </Size>
 	<Anchors>
 		<Anchor point="TOPLEFT">
@@ -554,7 +554,7 @@
  </Button>
  <Button name="AQQuestbutton2" inherits="" text="2">
    <Size>
-     <AbsDimension x="165" y="20"/>
+     <AbsDimension x="205" y="20"/>
    </Size>
 	<Anchors>
 		<Anchor point="TOPLEFT">
@@ -576,7 +576,7 @@
  </Button>
  <Button name="AQQuestbutton3" inherits="" text="3">
    <Size>
-     <AbsDimension x="165" y="20"/>
+     <AbsDimension x="205" y="20"/>
    </Size>
 	<Anchors>
 		<Anchor point="TOPLEFT">
@@ -595,7 +595,7 @@
  </Button>
  <Button name="AQQuestbutton4" inherits="" text="4">
    <Size>
-     <AbsDimension x="165" y="20"/>
+     <AbsDimension x="205" y="20"/>
    </Size>
 	<Anchors>
 		<Anchor point="TOPLEFT">
@@ -614,7 +614,7 @@
  </Button>
  <Button name="AQQuestbutton5" inherits="" text="5">
    <Size>
-     <AbsDimension x="165" y="20"/>
+     <AbsDimension x="205" y="20"/>
    </Size>
 	<Anchors>
 		<Anchor point="TOPLEFT">
@@ -633,7 +633,7 @@
  </Button>
  <Button name="AQQuestbutton6" inherits="" text="6">
    <Size>
-     <AbsDimension x="165" y="20"/>
+     <AbsDimension x="205" y="20"/>
    </Size>
 	<Anchors>
 		<Anchor point="TOPLEFT">
@@ -652,7 +652,7 @@
  </Button>
  <Button name="AQQuestbutton7" inherits="" text="7">
    <Size>
-     <AbsDimension x="165" y="20"/>
+     <AbsDimension x="205" y="20"/>
    </Size>
 	<Anchors>
 		<Anchor point="TOPLEFT">
@@ -671,7 +671,7 @@
  </Button>
  <Button name="AQQuestbutton8" inherits="" text="8">
    <Size>
-     <AbsDimension x="165" y="20"/>
+     <AbsDimension x="205" y="20"/>
    </Size>
 	<Anchors>
 		<Anchor point="TOPLEFT">
@@ -690,7 +690,7 @@
  </Button>
  <Button name="AQQuestbutton9" inherits="" text="9">
    <Size>
-     <AbsDimension x="165" y="20"/>
+     <AbsDimension x="205" y="20"/>
    </Size>
 	<Anchors>
 		<Anchor point="TOPLEFT">
@@ -709,7 +709,7 @@
  </Button>
  <Button name="AQQuestbutton10" inherits="" text="10">
    <Size>
-     <AbsDimension x="165" y="20"/>
+     <AbsDimension x="205" y="20"/>
    </Size>
 	<Anchors>
 		<Anchor point="TOPLEFT">
@@ -728,7 +728,7 @@
  </Button>
  <Button name="AQQuestbutton11" inherits="" text="11">
    <Size>
-     <AbsDimension x="165" y="20"/>
+     <AbsDimension x="205" y="20"/>
    </Size>
 	<Anchors>
 		<Anchor point="TOPLEFT">
@@ -747,7 +747,7 @@
  </Button>
  <Button name="AQQuestbutton12" inherits="" text="12">
    <Size>
-     <AbsDimension x="165" y="20"/>
+     <AbsDimension x="205" y="20"/>
    </Size>
 	<Anchors>
 		<Anchor point="TOPLEFT">
@@ -766,7 +766,7 @@
  </Button>
  <Button name="AQQuestbutton13" inherits="" text="13">
    <Size>
-     <AbsDimension x="165" y="20"/>
+     <AbsDimension x="205" y="20"/>
    </Size>
 	<Anchors>
 		<Anchor point="TOPLEFT">
@@ -785,7 +785,7 @@
  </Button>
  <Button name="AQQuestbutton14" inherits="" text="14">
    <Size>
-     <AbsDimension x="165" y="20"/>
+     <AbsDimension x="205" y="20"/>
    </Size>
 	<Anchors>
 		<Anchor point="TOPLEFT">
@@ -804,7 +804,7 @@
  </Button>
  <Button name="AQQuestbutton15" inherits="" text="15">
    <Size>
-     <AbsDimension x="165" y="20"/>
+     <AbsDimension x="205" y="20"/>
    </Size>
 	<Anchors>
 		<Anchor point="TOPLEFT">
@@ -823,7 +823,7 @@
  </Button>
  <Button name="AQQuestbutton16" inherits="" text="16">
    <Size>
-     <AbsDimension x="165" y="20"/>
+     <AbsDimension x="205" y="20"/>
    </Size>
 	<Anchors>
 		<Anchor point="TOPLEFT">
@@ -842,7 +842,7 @@
  </Button>
  <Button name="AQQuestbutton17" inherits="" text="17">
    <Size>
-     <AbsDimension x="165" y="20"/>
+     <AbsDimension x="205" y="20"/>
    </Size>
 	<Anchors>
 		<Anchor point="TOPLEFT">
@@ -861,7 +861,7 @@
  </Button>
  <Button name="AQQuestbutton18" inherits="" text="18">
    <Size>
-     <AbsDimension x="165" y="20"/>
+     <AbsDimension x="205" y="20"/>
    </Size>
 	<Anchors>
 		<Anchor point="TOPLEFT">
@@ -880,7 +880,7 @@
  </Button>
  <Button name="AQQuestbutton19" inherits="" text="18">
    <Size>
-     <AbsDimension x="165" y="20"/>
+     <AbsDimension x="205" y="20"/>
    </Size>
 	<Anchors>
 		<Anchor point="TOPLEFT">
@@ -899,7 +899,7 @@
  </Button>
  <Button name="AQQuestbutton20" inherits="" text="18">
    <Size>
-     <AbsDimension x="165" y="20"/>
+     <AbsDimension x="205" y="20"/>
    </Size>
 	<Anchors>
 		<Anchor point="TOPLEFT">
@@ -956,7 +956,7 @@
        </Anchors>
      </FontString>
      <Texture name="AQBACKGROUNDTEXTUR" file="Interface\AddOns\AtlasQuest\Images\AtlasQuestPanelFrame">
-         <Size><AbsDimension x="187" y="508"/></Size>
+         <Size><AbsDimension x="220" y="510"/></Size>
            <Anchors>
              <Anchor point="TOPRIGHT" >
                <Offset>
@@ -1131,7 +1131,7 @@
            </Anchors>
       </Texture>
      <FontString name="AQBUTTONTEXT1" inherits="GameFontNormalSmall" text="1" justifyH = "LEFT">
-       <Size><AbsDimension x="165" y="20"/></Size>
+       <Size><AbsDimension x="205" y="20"/></Size>
        <Anchors>
          <Anchor point="TOPLEFT">
 			<Offset>
@@ -1141,7 +1141,7 @@
        </Anchors>
      </FontString>
      <FontString name="AQBUTTONTEXT2" inherits="GameFontNormalSmall" text="2" justifyH = "LEFT">
-       <Size><AbsDimension x="165" y="20"/></Size>
+       <Size><AbsDimension x="205" y="20"/></Size>
        <Anchors>
          <Anchor point="TOPLEFT" relativeTo="AQBUTTONTEXT1" relativePoint="TOPLEFT">
 			<Offset><AbsDimension x="0" y="-20"/></Offset>
@@ -1149,7 +1149,7 @@
        </Anchors>
      </FontString>
      <FontString name="AQBUTTONTEXT3" inherits="GameFontNormalSmall" text="3" justifyH = "LEFT">
-       <Size><AbsDimension x="165" y="20"/></Size>
+       <Size><AbsDimension x="205" y="20"/></Size>
        <Anchors>
          <Anchor point="TOPLEFT" relativeTo="AQBUTTONTEXT2" relativePoint="TOPLEFT">
 			<Offset><AbsDimension x="0" y="-20"/></Offset>
@@ -1157,7 +1157,7 @@
        </Anchors>
      </FontString>
      <FontString name="AQBUTTONTEXT4" inherits="GameFontNormalSmall" text="4" justifyH = "LEFT">
-       <Size><AbsDimension x="165" y="20"/></Size>
+       <Size><AbsDimension x="205" y="20"/></Size>
        <Anchors>
          <Anchor point="TOPLEFT" relativeTo="AQBUTTONTEXT3" relativePoint="TOPLEFT">
 			<Offset><AbsDimension x="0" y="-20"/></Offset>
@@ -1165,7 +1165,7 @@
        </Anchors>
      </FontString>
      <FontString name="AQBUTTONTEXT5" inherits="GameFontNormalSmall" text="5" justifyH = "LEFT">
-       <Size><AbsDimension x="165" y="20"/></Size>
+       <Size><AbsDimension x="205" y="20"/></Size>
        <Anchors>
          <Anchor point="TOPLEFT" relativeTo="AQBUTTONTEXT4" relativePoint="TOPLEFT">
 			<Offset><AbsDimension x="0" y="-20"/></Offset>
@@ -1173,7 +1173,7 @@
        </Anchors>
      </FontString>
      <FontString name="AQBUTTONTEXT6" inherits="GameFontNormalSmall" text="6" justifyH = "LEFT">
-       <Size><AbsDimension x="165" y="20"/></Size>
+       <Size><AbsDimension x="205" y="20"/></Size>
        <Anchors>
          <Anchor point="TOPLEFT" relativeTo="AQBUTTONTEXT5" relativePoint="TOPLEFT">
 			<Offset><AbsDimension x="0" y="-20"/></Offset>
@@ -1181,7 +1181,7 @@
        </Anchors>
      </FontString>
      <FontString name="AQBUTTONTEXT7" inherits="GameFontNormalSmall" text="7" justifyH = "LEFT">
-       <Size><AbsDimension x="165" y="20"/></Size>
+       <Size><AbsDimension x="205" y="20"/></Size>
        <Anchors>
          <Anchor point="TOPLEFT" relativeTo="AQBUTTONTEXT6" relativePoint="TOPLEFT">
 			<Offset><AbsDimension x="0" y="-20"/></Offset>
@@ -1189,7 +1189,7 @@
        </Anchors>
      </FontString>
      <FontString name="AQBUTTONTEXT8" inherits="GameFontNormalSmall" text="8" justifyH = "LEFT">
-       <Size><AbsDimension x="165" y="20"/></Size>
+       <Size><AbsDimension x="205" y="20"/></Size>
        <Anchors>
          <Anchor point="TOPLEFT" relativeTo="AQBUTTONTEXT7" relativePoint="TOPLEFT">
 			<Offset><AbsDimension x="0" y="-20"/></Offset>
@@ -1197,7 +1197,7 @@
        </Anchors>
      </FontString>
      <FontString name="AQBUTTONTEXT9" inherits="GameFontNormalSmall" text="9" justifyH = "LEFT">
-       <Size><AbsDimension x="165" y="20"/></Size>
+       <Size><AbsDimension x="205" y="20"/></Size>
        <Anchors>
          <Anchor point="TOPLEFT" relativeTo="AQBUTTONTEXT8" relativePoint="TOPLEFT">
 			<Offset><AbsDimension x="0" y="-20"/></Offset>
@@ -1205,7 +1205,7 @@
        </Anchors>
      </FontString>
      <FontString name="AQBUTTONTEXT10" inherits="GameFontNormalSmall" text="10" justifyH = "LEFT">
-       <Size><AbsDimension x="165" y="20"/></Size>
+       <Size><AbsDimension x="205" y="20"/></Size>
        <Anchors>
          <Anchor point="TOPLEFT" relativeTo="AQBUTTONTEXT9" relativePoint="TOPLEFT">
 			<Offset><AbsDimension x="0" y="-20"/></Offset>
@@ -1213,7 +1213,7 @@
        </Anchors>
      </FontString>
      <FontString name="AQBUTTONTEXT11" inherits="GameFontNormalSmall" text="11" justifyH = "LEFT">
-       <Size><AbsDimension x="165" y="20"/></Size>
+       <Size><AbsDimension x="205" y="20"/></Size>
        <Anchors>
          <Anchor point="TOPLEFT" relativeTo="AQBUTTONTEXT10" relativePoint="TOPLEFT">
 			<Offset><AbsDimension x="0" y="-20"/></Offset>
@@ -1221,7 +1221,7 @@
        </Anchors>
      </FontString>
      <FontString name="AQBUTTONTEXT12" inherits="GameFontNormalSmall" text="12" justifyH = "LEFT">
-       <Size><AbsDimension x="165" y="20"/></Size>
+       <Size><AbsDimension x="205" y="20"/></Size>
        <Anchors>
          <Anchor point="TOPLEFT" relativeTo="AQBUTTONTEXT11" relativePoint="TOPLEFT">
 			<Offset><AbsDimension x="0" y="-20"/></Offset>
@@ -1229,7 +1229,7 @@
        </Anchors>
      </FontString>
      <FontString name="AQBUTTONTEXT13" inherits="GameFontNormalSmall" text="13" justifyH = "LEFT">
-       <Size><AbsDimension x="165" y="20"/></Size>
+       <Size><AbsDimension x="205" y="20"/></Size>
        <Anchors>
          <Anchor point="TOPLEFT" relativeTo="AQBUTTONTEXT12" relativePoint="TOPLEFT">
 			<Offset><AbsDimension x="0" y="-20"/></Offset>
@@ -1237,7 +1237,7 @@
        </Anchors>
      </FontString>
      <FontString name="AQBUTTONTEXT14" inherits="GameFontNormalSmall" text="14" justifyH = "LEFT">
-       <Size><AbsDimension x="165" y="20"/></Size>
+       <Size><AbsDimension x="205" y="20"/></Size>
        <Anchors>
          <Anchor point="TOPLEFT" relativeTo="AQBUTTONTEXT13" relativePoint="TOPLEFT">
 			<Offset><AbsDimension x="0" y="-20"/></Offset>
@@ -1245,7 +1245,7 @@
        </Anchors>
      </FontString>
      <FontString name="AQBUTTONTEXT15" inherits="GameFontNormalSmall" text="15" justifyH = "LEFT">
-       <Size><AbsDimension x="165" y="20"/></Size>
+       <Size><AbsDimension x="205" y="20"/></Size>
        <Anchors>
          <Anchor point="TOPLEFT" relativeTo="AQBUTTONTEXT14" relativePoint="TOPLEFT">
 			<Offset><AbsDimension x="0" y="-20"/></Offset>
@@ -1253,7 +1253,7 @@
        </Anchors>
      </FontString>
      <FontString name="AQBUTTONTEXT16" inherits="GameFontNormalSmall" text="16" justifyH = "LEFT">
-       <Size><AbsDimension x="165" y="20"/></Size>
+       <Size><AbsDimension x="205" y="20"/></Size>
        <Anchors>
          <Anchor point="TOPLEFT" relativeTo="AQBUTTONTEXT15" relativePoint="TOPLEFT">
 			<Offset><AbsDimension x="0" y="-20"/></Offset>
@@ -1261,7 +1261,7 @@
        </Anchors>
      </FontString>
      <FontString name="AQBUTTONTEXT17" inherits="GameFontNormalSmall" text="17" justifyH = "LEFT">
-       <Size><AbsDimension x="165" y="20"/></Size>
+       <Size><AbsDimension x="205" y="20"/></Size>
        <Anchors>
          <Anchor point="TOPLEFT" relativeTo="AQBUTTONTEXT16" relativePoint="TOPLEFT">
 			<Offset><AbsDimension x="0" y="-20"/></Offset>
@@ -1269,7 +1269,7 @@
        </Anchors>
      </FontString>
      <FontString name="AQBUTTONTEXT18" inherits="GameFontNormalSmall" text="18" justifyH = "LEFT">
-       <Size><AbsDimension x="165" y="20"/></Size>
+       <Size><AbsDimension x="205" y="20"/></Size>
        <Anchors>
          <Anchor point="TOPLEFT" relativeTo="AQBUTTONTEXT17" relativePoint="TOPLEFT">
 			<Offset><AbsDimension x="0" y="-20"/></Offset>
@@ -1277,7 +1277,7 @@
        </Anchors>
      </FontString>
      <FontString name="AQBUTTONTEXT19" inherits="GameFontNormalSmall" text="18" justifyH = "LEFT">
-       <Size><AbsDimension x="165" y="20"/></Size>
+       <Size><AbsDimension x="205" y="20"/></Size>
        <Anchors>
          <Anchor point="TOPLEFT" relativeTo="AQBUTTONTEXT18" relativePoint="TOPLEFT">
 			<Offset><AbsDimension x="0" y="-20"/></Offset>
@@ -1285,7 +1285,7 @@
        </Anchors>
      </FontString>
      <FontString name="AQBUTTONTEXT20" inherits="GameFontNormalSmall" text="18" justifyH = "LEFT">
-       <Size><AbsDimension x="165" y="20"/></Size>
+       <Size><AbsDimension x="205" y="20"/></Size>
        <Anchors>
          <Anchor point="TOPLEFT" relativeTo="AQBUTTONTEXT19" relativePoint="TOPLEFT">
 			<Offset><AbsDimension x="0" y="-20"/></Offset>

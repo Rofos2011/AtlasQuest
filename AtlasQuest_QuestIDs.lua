@@ -890,6 +890,35 @@ AQ_2841_Level = "35"
 AQ_2949_Level = "34"
 
 
+--------------- INST95 - Glittermurk Mines (GMM) ---------------
+
+Inst95Quest1_QuestID = "26285"
+Inst95Quest2_QuestID = "26292"
+Inst95Quest3_QuestID = "26287"
+Inst95Quest4_QuestID = "26286"
+Inst95Quest5_QuestID = "26288"
+Inst95Quest6_QuestID = "26289"
+Inst95Quest7_QuestID = "26282"
+Inst95Quest8_QuestID = "26284"
+
+Inst95Quest1_HORDE_QuestID = "26285"
+Inst95Quest2_HORDE_QuestID = "26292"
+Inst95Quest3_HORDE_QuestID = "26287"
+Inst95Quest4_HORDE_QuestID = "26286"
+Inst95Quest5_HORDE_QuestID = "26288"
+Inst95Quest6_HORDE_QuestID = "26289"
+Inst95Quest7_HORDE_QuestID = "26282"
+Inst95Quest8_HORDE_QuestID = "26291"
+
+AQ_26285_Level = "40"
+AQ_26292_Level = "40"
+AQ_26287_Level = "40"
+AQ_26286_Level = "43"
+AQ_26284_Level = "43"
+AQ_26291_Level = "43"
+AQ_26288_Level = "43"
+AQ_26282_Level = "42"
+AQ_26289_Level = "42"
 
 ---------------------------------------------------
 ---------------- BATTLEGROUNDS --------------------

@@ -560,9 +560,9 @@ Inst3Quest6_HORDE_Attain = "20"
 Inst3Quest6_HORDE_Aim = "Using Aturk's Material List, find some Blessed Ingots, Zelemar's Hammer, a Silver Hand Medallion and a Kor Gem. Bring them to Aturk the Anvil in Orgrimmar."
 Inst3Quest6_HORDE_Location = "The Fallen Knight (Undercity - War Quarter; "..YELLOW.."52,31"..WHITE..") ->\n\nAturk the Anvil (Orgrimmar - Valley of Honor; "..YELLOW.."80,23"..WHITE..")"
 Inst3Quest6_HORDE_Note = ""..paladin.."PALADIN "..WHITE.."ONLY!\n\n1. To see the list click on "..YELLOW.."[Materials of the Light]"..WHITE.."."
-Inst3Quest6_HORDE_Page = {2, ""..paladin.."PALADIN "..WHITE.."ONLY!\n\n1. You get the Springvale's Blessed Ingots from a crate in the same room you fight Commander Springvale in "..YELLOW.."[Shadowfang Keep]"..WHITE.." near "..YELLOW.."[6]"..WHITE..".\n\n2. To get the Silver Hand Medallion Go to Stonetalon Mountains and kill Venture Co. goblins in Windshear Crag.\n\n3. You get Zelemar's Hammer from Zelemar the Wrathful in "..YELLOW.."[Ragefire Chasm]"..WHITE.." at "..YELLOW.."[3]"..WHITE..". Click on the Blood Filled Orb to summon him.\n\n4. To get the last item, kill Blackfathom oracles or priestesses before "..YELLOW.."[Blackfathom Deeps]"..WHITE..". They drop the Corrupted Kor Gem.", };
+Inst3Quest6_HORDE_Page = {2, ""..paladin.."PALADIN "..WHITE.."ONLY!\n\n1. You get the Springvale's Blessed Ingots from a crate in the same room you fight Commander Springvale in "..YELLOW.."[Shadowfang Keep]"..WHITE.." near "..YELLOW.."[6]"..WHITE..".\n\n2. To get the Silver Hand Medallion go to Stonetalon Mountains and kill any Venture Co. NPC in Windshear Crag until it drops.\n\n3. You get Zelemar's Hammer from Zelemar the Wrathful in "..YELLOW.."[Ragefire Chasm]"..WHITE.." at "..YELLOW.."[3]"..WHITE..". Click on the Blood Filled Orb to summon him.\n\n4. To get the last item, kill Blackfathom oracles or priestesses before "..YELLOW.."[Blackfathom Deeps]"..WHITE..". They drop the Corrupted Kor Gem.", };
 Inst3Quest6_HORDE_Prequest = "Trial of the Willing -> Materials of the Light (Undercity)"
-Inst3Quest6_HORDE_Folgequest = "Materials of the Light"
+Inst3Quest6_HORDE_Folgequest = "Weapon of the Light"
 Inst3Quest6_HORDEPreQuest = "true"
 --
 Inst3Quest6name1_HORDE = "Admonisher of the Fallen Knight"
@@ -1463,7 +1463,7 @@ Inst7Quest7 = "7. Solarsal Report "..EPOCH.."(New)"
 Inst7Quest7_Level = "27"
 Inst7Quest7_Attain = "20"
 Inst7Quest7_Aim = "Bring the report to someone in Astranaar."
-Inst7Quest7_Location = "Solarsal Report (drops from Lady Sarevess; "..YELLOW.."[3]"..WHITE..")"
+Inst7Quest7_Location = "Report: Solarsal (drops from Lady Sarevess; "..YELLOW.."[3]"..WHITE..")"
 Inst7Quest7_Note = "The item that starts the quest drops from Lady Sarevess; "..YELLOW.."[3]"..WHITE..". You deliver the scroll to Shindrell Swiftfire ("..YELLOW.."34,48"..WHITE..") in Astranaar, Ashenvale."
 Inst7Quest7_Prequest = "None"
 Inst7Quest7_Folgequest = "None"
@@ -2610,7 +2610,7 @@ Inst17Quest4name2_HORDE = "Amberglow Talisman"
 Inst18Story = "Ten thousand years ago - during the War of the Ancients, the mighty demigod, Agamaggan, came forth to battle the Burning Legion. Though the colossal boar fell in combat, his actions helped save Azeroth from ruin. Yet over time, in the areas where his blood fell, massive thorn-ridden vines sprouted from the earth. The quillboar - believed to be the mortal offspring of the mighty god, came to occupy these regions and hold them sacred. The heart of these thorn-colonies was known as the Razorfen. The great mass of Razorfen Kraul was conquered by the old crone, Charlga Razorflank. Under her rule, the shamanistic quillboar stage attacks on rival tribes as well as Horde villages. Some speculate that Charlga has even been negotiating with agents of the Scourge - aligning her unsuspecting tribe with the ranks of the Undead for some insidious purpose."
 Inst18Caption = "Razorfen Kraul"
 Inst18QAA = "5 Quests"
-Inst18QAH = "6 Quests"
+Inst18QAH = "7 Quests"
 
 --Quest 1 Alliance
 Inst18Quest1 = "1. Blueleaf Tubers"
@@ -3001,7 +3001,7 @@ Inst58Quest2name3_HORDE = "Dragon's Blood Necklace"
 Inst59Story = "The Monastery was once a proud bastion of Lordaeron's priesthood - a center for learning and enlightenment. With the rise of the undead Scourge during the Third War, the peaceful Monastery was converted into a stronghold of the fanatical Scarlet Crusade. The Crusaders are intolerant of all non-human races, regardless of alliance or affiliation. They believe that any and all outsiders are potential carriers of the undead plague - and must be destroyed. Reports indicate that adventurers who enter the monastery are forced to contend with Scarlet Commander Mograine - who commands a large garrison of fanatically devoted warriors. However, the monastery's true master is High Inquisitor Whitemane - a fearsome priestess who possesses the ability to resurrect fallen warriors to do battle in her name."
 Inst59Caption = "SM: Graveyard"
 Inst59QAA = "No Quests"
-Inst59QAH = "3 Quests"
+Inst59QAH = "2 Quests"
 
 --Quest 1 Horde
 Inst59Quest1_HORDE = "1. Vorrel's Revenge"
@@ -3030,14 +3030,14 @@ Inst59Quest2PreQuest_HORDE = "true"
 -- No Rewards for this quest
 
 --Quest 3 Horde  (same as Quest 1 Alliance)
-Inst59Quest3_HORDE = "3. Call the Headless Horseman (Daily - Seasonal)"
-Inst59Quest3_HORDE_Level = Inst59Quest1_Level
-Inst59Quest3_HORDE_Attain = Inst59Quest1_Attain
-Inst59Quest3_HORDE_Aim = Inst59Quest1_Aim
-Inst59Quest3_HORDE_Location = Inst59Quest1_Location
-Inst59Quest3_HORDE_Note = Inst59Quest1_Note
-Inst59Quest3_HORDE_Prequest = Inst59Quest1_Prequest
-Inst59Quest3_HORDE_Folgequest = Inst59Quest1_Folgequest
+--Inst59Quest3_HORDE = "3. Call the Headless Horseman (Daily - Seasonal)"
+--Inst59Quest3_HORDE_Level = Inst59Quest1_Level
+--Inst59Quest3_HORDE_Attain = Inst59Quest1_Attain
+--Inst59Quest3_HORDE_Aim = Inst59Quest1_Aim
+--Inst59Quest3_HORDE_Location = Inst59Quest1_Location
+--Inst59Quest3_HORDE_Note = Inst59Quest1_Note
+--Inst59Quest3_HORDE_Prequest = Inst59Quest1_Prequest
+--Inst59Quest3_HORDE_Folgequest = Inst59Quest1_Folgequest
 -- No Rewards for this quest
 
 
@@ -4934,8 +4934,201 @@ Inst29Quest6name1_HORDE = "Sparklematic-Wrapped Box"
 
 --------------- INST95 - Glittermurk Mines (GMM) ---------------
 Inst95Caption = "Glittermurk Mines"
-Inst95QAA = "Coming Soon"
-Inst95QAH = "Coming Soon"
+Inst95QAA = "8 Quests"
+Inst95QAH = "8 Quests"
+
+--Quest 1 Alliance
+Inst95Quest1 = "1. Deeg's Lost Pipe"
+Inst95Quest1_Level = "35"
+Inst95Quest1_Attain = "40"
+Inst95Quest1_Aim = "Recover Deeg's Lost Pipe from Murklurk within Glittermurk Mines and bring it to him in Booty Bay."
+Inst95Quest1_Location = "Deeg (Stranglethorn Vale - Booty Bay; "..YELLOW.."26,77"..WHITE..")"
+Inst95Quest1_Note = "Deeg's Lost Pipe drops from Murklurk. You find him at "..YELLOW.."[6]"..WHITE.." in Glittermurk Mines."
+Inst95Quest1_Prequest = "None"
+Inst95Quest1_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 2 Alliance
+Inst95Quest2 = "2. Tunnel Monster"
+Inst95Quest2_Level = "35"
+Inst95Quest2_Attain = "40"
+Inst95Quest2_Aim = "Search Glittermurk Mines for the monster Aliss Tideseeker described and destroy it."
+Inst95Quest2_Location = "Aliss Tideseeker (Stranglethorn Vale - Booty Bay; "..YELLOW.."28,77"..WHITE..")"
+Inst95Quest2_Note = "The 'Monster' is Kraken. You find it udnerwater at "..YELLOW.."[2]"..WHITE.."."
+Inst95Quest2_Prequest = "None"
+Inst95Quest2_Folgequest = "None"
+--
+Inst95Quest2name1 = "Shiny Shell Necklace"
+
+--Quest 3 Alliance
+Inst95Quest3 = "3. Prismatic Scales"
+Inst95Quest3_Level = "35"
+Inst95Quest3_Attain = "40"
+Inst95Quest3_Aim = "Collect Prismatic Scales from a basilisk inside Glittermurk Mines and bring them to Drizzlik in Booty Bay."
+Inst95Quest3_Location = "Drizzlik (Stranglethorn Vale - Booty Bay; "..YELLOW.."28,77"..WHITE..")"
+Inst95Quest3_Note = "Prismatic Scales drop from Prismscale at "..YELLOW.."[3]"..WHITE.." in Glittermurk Mines."
+Inst95Quest3_Prequest = "Supply and Demand -> Excelsior"
+Inst95Quest3_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 4 Alliance
+Inst95Quest4 = "4. Kill the Foreman"
+Inst95Quest4_Level = "35"
+Inst95Quest4_Attain = "43"
+Inst95Quest4_Aim = "Slay the Venture Co. Foreman within Glittermurk Mines."
+Inst95Quest4_Location = "Crank Fizzlebub (Stranglethorn Vale - Booty Bay; "..YELLOW.."27,77"..WHITE..")"
+Inst95Quest4_Note = "Slay Foreman Sprocket at "..YELLOW.."[4]"..WHITE.." and bring his head back to Crank Fizzlebub in Booty Bay."
+Inst95Quest4_Prequest = "Singing Blue Shards -> Venture Company Mining"
+Inst95Quest4_Folgequest = "None"
+--
+Inst95Quest4name1 = "High Tech Helmet"
+Inst95Quest4name2 = "Venture Co. Tredders"
+Inst95Quest4name3 = "Dirt-Covered Grips"
+
+--Quest 5 Alliance
+Inst95Quest5 = "5. Reclaiming Tools"
+Inst95Quest5_Level = "35"
+Inst95Quest5_Attain = "43"
+Inst95Quest5_Aim = "Recover 20 tools from the Venture Co. within Glittermurk Mines."
+Inst95Quest5_Location = "Krinkle Goodsteel (Tanaris - Gadgetzan; "..YELLOW.."51,28"..WHITE..")"
+Inst95Quest5_Note = "Recovered Tools drop from Venture Co. personnel in Glittermurk Mines. Recover 20 tools and bring them back to Krinkle Goodsteel in Gadgetzan."
+Inst95Quest5_Prequest = "None"
+Inst95Quest5_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 6 Alliance
+Inst95Quest6 = "6. Renegade Naga"
+Inst95Quest6_Level = "37"
+Inst95Quest6_Attain = "42"
+Inst95Quest6_Aim = "Slay 5 Tidewater Oracles, 5 Tidewater Warriors, and Gnash inside Glittermurk Mines for Zalashji in Tanaris."
+Inst95Quest6_Location = "Zalashji (Tanaris - Zalashji's Den; "..YELLOW.."67,32"..WHITE..")"
+Inst95Quest6_Note = "Zalashji is located in a hidden cave at the coast of Tanaris, surrounded by a small group of mountains.\n\nThe Tidewater Nagas and Gnash can be found around "..YELLOW.."[7]"..WHITE.." in Glittermurk Mines."
+Inst95Quest6_Prequest = "None"
+Inst95Quest6_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 7 Alliance
+Inst95Quest7 = "7. An Old Debt"
+Inst95Quest7_Level = "37"
+Inst95Quest7_Attain = "42"
+Inst95Quest7_Aim = "Locate Supervisor Grimgash within Glittermurk Mines and slay him."
+Inst95Quest7_Location = "Joakim Sparkroot (Badlands - Springsocket; "..YELLOW.."68,62"..WHITE..")"
+Inst95Quest7_Note = "Supervisor Grimgash can be found at "..YELLOW.."[1]"..WHITE.."."
+Inst95Quest7_Prequest = "None"
+Inst95Quest7_Folgequest = "None"
+-- No Rewards for this quest
+
+--Quest 8 Alliance
+Inst95Quest8 = "8. Azothan Relics"
+Inst95Quest8_Level = "35"
+Inst95Quest8_Attain = "43"
+Inst95Quest8_Aim = "Collect Azothan Relics within the Glittermurk Mines for Historian Karnik within Ironforge at the Hall of Explorers."
+Inst95Quest8_Location = "Azothan Idol (drops from Venture Co. Goblins near the entrance of Glittermurk Mines in Stranglethorn Vale)"
+Inst95Quest8_Note = "The item that starts the quest drops from random Venture Co. Goblins near the enrance of the dungeon.\n\nBring it to Historian Karnik (Ironforge - Hall of Explorers; "..YELLOW.."77, 11"..WHITE.."). He will start the second part of the quest that asks you to bring him 8 Azothan Idols. You collect these in the dungeon itself."
+Inst95Quest8_Prequest = "Azothan Relic"
+Inst95Quest8_Folgequest = "None"
+--
+Inst95Quest8name1 = "Scroll of Intellect III"
+Inst95Quest8name2 = "Scroll of Stamina III"
+Inst95Quest8name3 = "Scroll of Agility III"
+Inst95Quest8name4 = "Scroll of Strength III"
+
+--Quest 1 Horde  (same as Quest 1 Alliance)
+Inst95Quest1_HORDE = Inst95Quest1
+Inst95Quest1_HORDE_Level = Inst95Quest1_Level
+Inst95Quest1_HORDE_Attain = Inst95Quest1_Attain
+Inst95Quest1_HORDE_Aim = Inst95Quest1_Aim
+Inst95Quest1_HORDE_Location = Inst95Quest1_Location
+Inst95Quest1_HORDE_Note = Inst95Quest1_Note
+Inst95Quest1_HORDE_Prequest = Inst95Quest1_Prequest
+Inst95Quest1_HORDE_Folgequest = Inst95Quest1_Folgequest
+-- No Rewards for this quest
+
+--Quest 2 Horde  (same as Quest 2 Alliance)
+Inst95Quest2_HORDE = Inst95Quest2
+Inst95Quest2_HORDE_Level = Inst95Quest2_Level
+Inst95Quest2_HORDE_Attain = Inst95Quest2_Attain
+Inst95Quest2_HORDE_Aim = Inst95Quest2_Aim
+Inst95Quest2_HORDE_Location = Inst95Quest2_Location
+Inst95Quest2_HORDE_Note = Inst95Quest2_Note
+Inst95Quest2_HORDE_Prequest = Inst95Quest2_Prequest
+Inst95Quest2_HORDE_Folgequest = Inst95Quest2_Folgequest
+--
+Inst95Quest2name1_HORDE = Inst95Quest2name1
+
+--Quest 3 Horde  (same as Quest 3 Alliance)
+Inst95Quest3_HORDE = Inst95Quest3
+Inst95Quest3_HORDE_Level = Inst95Quest3_Level
+Inst95Quest3_HORDE_Attain = Inst95Quest3_Attain
+Inst95Quest3_HORDE_Aim = Inst95Quest3_Aim
+Inst95Quest3_HORDE_Location = Inst95Quest3_Location
+Inst95Quest3_HORDE_Note = Inst95Quest3_Note
+Inst95Quest3_HORDE_Prequest = Inst95Quest3_Prequest
+Inst95Quest3_HORDE_Folgequest = Inst95Quest3_Folgequest
+-- No Rewards for this quest
+
+--Quest 4 Horde  (same as Quest 4 Alliance)
+Inst95Quest4_HORDE = Inst95Quest4
+Inst95Quest4_HORDE_Level = Inst95Quest4_Level
+Inst95Quest4_HORDE_Attain = Inst95Quest4_Attain
+Inst95Quest4_HORDE_Aim = Inst95Quest4_Aim
+Inst95Quest4_HORDE_Location = Inst95Quest4_Location
+Inst95Quest4_HORDE_Note = Inst95Quest4_Note
+Inst95Quest4_HORDE_Prequest = Inst95Quest4_Prequest
+Inst95Quest4_HORDE_Folgequest = Inst95Quest4_Folgequest
+--
+Inst95Quest4name1_HORDE = Inst95Quest4name1
+Inst95Quest4name2_HORDE = Inst95Quest4name2
+Inst95Quest4name3_HORDE = Inst95Quest4name3
+
+--Quest 5 Horde  (same as Quest 5 Alliance)
+Inst95Quest5_HORDE = Inst95Quest5
+Inst95Quest5_HORDE_Level = Inst95Quest5_Level
+Inst95Quest5_HORDE_Attain = Inst95Quest5_Attain
+Inst95Quest5_HORDE_Aim = Inst95Quest5_Aim
+Inst95Quest5_HORDE_Location = Inst95Quest5_Location
+Inst95Quest5_HORDE_Note = Inst95Quest5_Note
+Inst95Quest5_HORDE_Prequest = Inst95Quest5_Prequest
+Inst95Quest5_HORDE_Folgequest = Inst95Quest5_Folgequest
+-- No Rewards for this quest
+
+--Quest 6 Horde  (same as Quest 6 Alliance)
+Inst95Quest6_HORDE = Inst95Quest6
+Inst95Quest6_HORDE_Level = Inst95Quest6_Level
+Inst95Quest6_HORDE_Attain = Inst95Quest6_Attain
+Inst95Quest6_HORDE_Aim = Inst95Quest6_Aim
+Inst95Quest6_HORDE_Location = Inst95Quest6_Location
+Inst95Quest6_HORDE_Note = Inst95Quest6_Note
+Inst95Quest6_HORDE_Prequest = Inst95Quest6_Prequest
+Inst95Quest6_HORDE_Folgequest = Inst95Quest6_Folgequest
+-- No Rewards for this quest
+
+--Quest 7 Horde  (same as Quest 7 Alliance)
+Inst95Quest7_HORDE = Inst95Quest7
+Inst95Quest7_HORDE_Level = Inst95Quest7_Level
+Inst95Quest7_HORDE_Attain = Inst95Quest7_Attain
+Inst95Quest7_HORDE_Aim = Inst95Quest7_Aim
+Inst95Quest7_HORDE_Location = Inst95Quest7_Location
+Inst95Quest7_HORDE_Note = Inst95Quest7_Note
+Inst95Quest7_HORDE_Prequest = Inst95Quest7_Prequest
+Inst95Quest7_HORDE_Folgequest = Inst95Quest7_Folgequest
+-- No Rewards for this quest
+
+--Quest 8 Horde
+Inst95Quest8_HORDE = "8. Troll Relics"
+Inst95Quest8_HORDE_Level = "35"
+Inst95Quest8_HORDE_Attain = "43"
+Inst95Quest8_HORDE_Aim = "Collect Troll Relics within the Glittermurk Mines."
+Inst95Quest8_HORDE_Location = "Troll Idol (drops from Venture Co. Goblins near the entrance of Glittermurk Mines in Stranglethorn Vale)"
+Inst95Quest8_HORDE_Note = "The item that starts the quest drops from random Venture Co. Goblins near the enrance of the dungeon.\n\nBring it to Lorespeaker On'Ju (Orgrimmar - Valley of Spirits). He will start the second part of the quest that asks you to bring him 8 Troll Idols. You collect these in the dungeon itself."
+Inst95Quest8_HORDE_Prequest = "Troll Relic"
+Inst95Quest8_HORDE_Folgequest = "None"
+--
+Inst95Quest8name1_HORDE = "Scroll of Intellect III"
+Inst95Quest8name2_HORDE = "Scroll of Stamina III"
+Inst95Quest8name3_HORDE = "Scroll of Agility III"
+Inst95Quest8name4_HORDE = "Scroll of Strength III"
+
 
 --------------- INST96 - Baradin Hold (BH) ---------------
 Inst96Caption = "Baradin Hold"
