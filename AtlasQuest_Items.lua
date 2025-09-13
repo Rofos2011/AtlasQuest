@@ -489,7 +489,12 @@ Inst4Quest10Rewardtext_HORDE = AQNoReward
 --Quest 11 Horde
 Inst4Quest11Rewardtext_HORDE = AQNoReward
 
-
+--Quest 12 Horde
+Inst4Quest12Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst4Quest12ITC1_HORDE = Itemc4;
+Inst4Quest12description1_HORDE = AQITEM_BACK
+Inst4Quest12ID1_HORDE = "62378"
 
 --------------- INST5 - Blackrock Depths (BRD) ---------------
 

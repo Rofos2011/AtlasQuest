@@ -19,7 +19,7 @@
 ## Updated by: Rofos2011
 ## CLI by: Dazerdude
 ## Version: 4.4.3
-## Epoch Version: 0.0.4
+## Epoch Version: 0.0.5
 ## X-eMail: mystery8@gmail.com
 ## X-Website: www.atlasmod.com/phpBB3/
 ## X-Category: MYADDONS_CATEGORY_MAP

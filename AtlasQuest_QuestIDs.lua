@@ -148,6 +148,7 @@ Inst4Quest8_HORDE_QuestID = "2342"
 Inst4Quest9_HORDE_QuestID = "2278"
 Inst4Quest10_HORDE_QuestID = "1956"
 Inst4Quest11_HORDE_QuestID = "1192"
+Inst4Quest12_HORDE_QuestID = "26593"
 
 
 AQ_721_Level = "35"
@@ -173,6 +174,7 @@ AQ_2318_Level = "42"
 AQ_2339_Level = "44"
 AQ_2202_Level = "42"
 AQ_2342_Level = "43"
+AQ_26593_Level = "42"
 
 
 

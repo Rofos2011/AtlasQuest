@@ -573,7 +573,7 @@ Inst3Quest6name1_HORDE = "Admonisher of the Fallen Knight"
 Inst4Story = "Uldaman is an ancient Titan vault that has laid buried deep within the earth since the world's creation. Dwarven excavations have recently penetrated this forgotten city, releasing the Titans' first failed creations: the troggs. Legends say that the Titans created troggs from stone. When they deemed the experiment a failure, the Titans locked the troggs away and tried again - resulting in the creation of the dwarven race. The secrets of the dwarves' creation are recorded on the fabled Discs of Norgannon - massive Titan artifacts that lie at the very bottom of the ancient city. Recently, the Dark Iron dwarves have launched a series of incursions into Uldaman, hoping to claim the discs for their fiery master, Ragnaros. However, protecting the buried city are several guardians - giant constructs of living stone that crush any hapless intruders they find. The Discs themselves are guarded by a massive, sentient Stonekeeper called Archaedas. Some rumors even suggest that the dwarves' stone-skinned ancestors, the earthen, still dwell deep within the city's hidden recesses."
 Inst4Caption = "Uldaman"
 Inst4QAA = "17 Quests"
-Inst4QAH = "11 Quests"
+Inst4QAH = "12 Quests"
 
 --Quest 1 Alliance
 Inst4Quest1 = "1. A Sign of Hope"
@@ -924,6 +924,17 @@ Inst4Quest11_HORDE_Folgequest = Inst4Quest17_Folgequest
 Inst4Quest11PreQuest_HORDE = Inst4Quest17PreQuest
 -- No Rewards for this quest
 
+--Quest 12 Horde
+Inst4Quest12_HORDE = "12. The Indurium Matrix "..EPOCH.."(New)"
+Inst4Quest12_HORDE_Level = "42"
+Inst4Quest12_HORDE_Attain = "37"
+Inst4Quest12_HORDE_Aim = "Find an Indurium Matrix inside Uldaman and bring it back to Historian Rebecca Keller."
+Inst4Quest12_HORDE_Location = "Historian Rebecca Keller (Badlands - Kargath; "..YELLOW.."3, 47"..WHITE..")"
+Inst4Quest12_HORDE_Note = "The quest chain starts with the quest 'Trapped Miners' from Neeka Bloodscar (Badlands - Kargath; "..YELLOW.."6, 47"..WHITE..").\n\nThe matrix is on the right side of the final boss room at "..YELLOW.."[10]"..WHITE.."."
+Inst4Quest12_HORDE_Prequest = "Trapped Miners -> The Strange Ore"
+Inst4Quest12_HORDE_Folgequest = "None"
+--
+Inst4Quest12name1_HORDE = "Antiquarian's Cape"
 
 
 --------------- INST5 - Blackrock Depths (BRD) ---------------
