@@ -58,6 +58,7 @@ Inst1Quest5_QuestID = "166"
 Inst1Quest6_QuestID = "1654"
 Inst1Quest7_QuestID = "373"
 Inst1Quest8_QuestID = "26139"
+Inst1Quest9_QuestID = "26281"
 
 Inst1Quest1_HORDE_QuestID = "27167"
 Inst1Quest2_HORDE_QuestID = "26139"
@@ -69,6 +70,7 @@ AQ_2040_Level = "20"
 AQ_166_Level = "22"
 AQ_1654_Level = "22"
 AQ_373_Level = "22"
+AQ_26281_Level = "20"
 AQ_26139_Level = "60"
 
 
@@ -607,7 +609,7 @@ Inst20Quest7_QuestID = "5343"
 Inst20Quest8_QuestID = "4771"
 Inst20Quest9_QuestID = "7629"
 Inst20Quest10_QuestID = "8969"
-Inst20Quest10_QuestID = "8992"
+Inst20Quest11_QuestID = "8992"
 
 Inst20Quest1_HORDE_QuestID = "5529"
 Inst20Quest2_HORDE_QuestID = "5582"
@@ -618,8 +620,8 @@ Inst20Quest6_HORDE_QuestID = "5466"
 Inst20Quest7_HORDE_QuestID = "5341"
 Inst20Quest8_HORDE_QuestID = "4771"
 Inst20Quest9_HORDE_QuestID = "7629"
-Inst20Quest10_HORDE_QuestID = "8969"
-Inst20Quest11_HORDE_QuestID = "8258"
+Inst20Quest10_HORDE_QuestID = "8258"
+Inst20Quest11_HORDE_QuestID = "8969"
 Inst20Quest12_HORDE_QuestID = "8992"
 
 
@@ -921,6 +923,25 @@ AQ_26291_Level = "43"
 AQ_26288_Level = "43"
 AQ_26282_Level = "42"
 AQ_26289_Level = "42"
+
+
+--------------- INST96 - Baradin Hold (BH) ---------------
+
+Inst96Quest1_QuestID = "26340"
+Inst96Quest2_QuestID = "8967"
+Inst96Quest3_QuestID = "8990"
+Inst96Quest4_QuestID = "26325"
+
+Inst96Quest1_HORDE_QuestID = "26342"
+Inst96Quest2_HORDE_QuestID = "8967"
+Inst96Quest3_HORDE_QuestID = "8990"
+Inst96Quest4_HORDE_QuestID = "26325"
+
+AQ_26342_Level = "60"
+AQ_26340_Level = "60"
+AQ_26325_Level = "60"
+AQ_8967_Level = "60"
+AQ_8990_Level = "60"
 
 ---------------------------------------------------
 ---------------- BATTLEGROUNDS --------------------

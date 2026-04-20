@@ -127,6 +127,16 @@ Inst1Quest6ID1 = "6953"
 --Quest 7 Alliance
 Inst1Quest7Rewardtext = AQNoReward
 
+--Quest 8 Alliance
+Inst1Quest8Rewardtext = AQNoReward
+
+--Quest 9 Alliance
+Inst1Quest9Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst1Quest9ITC1 = Itemc2;
+Inst1Quest9description1 = AQITEM_ITEM
+Inst1Quest9ID1 = "6373"
+
 
 --Quest 1 Horde
 Inst1Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"
@@ -2128,14 +2138,14 @@ Inst20Quest8ID2_HORDE = "15854"
 Inst20Quest9Rewardtext_HORDE = AQNoReward
 
 --Quest 10 Horde
-Inst20Quest10Rewardtext_HORDE = AQNoReward
+Inst20Quest10Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst20Quest10ITC1_HORDE = Itemc5;
+Inst20Quest10description1_HORDE = AQITEM_HEAD..AQITEM_MAIL
+Inst20Quest10ID1_HORDE = "20134"
 
 --Quest 11 Horde
-Inst20Quest11Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
---ITEM1
-Inst20Quest11ITC1_HORDE = Itemc5;
-Inst20Quest11description1_HORDE = AQITEM_HEAD..AQITEM_MAIL
-Inst20Quest11ID1_HORDE = "20134"
+Inst20Quest11Rewardtext_HORDE = AQNoReward
 
 --Quest 12 Horde
 Inst20Quest12Rewardtext_HORDE = AQNoReward
@@ -3280,6 +3290,67 @@ Inst95Quest8ITC4_HORDE = Itemc2;
 Inst95Quest8description4_HORDE = AQITEM_ITEM
 Inst95Quest8ID4_HORDE = "4426"
 
+--------------- INST96 - Baradin Hold (BH) ---------------
+
+--Quest 1 Alliance
+Inst96Quest1Rewardtext = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst96Quest1ITC1 = Itemc4;
+Inst96Quest1description1 = AQITEM_ONEHAND..AQITEM_DAGGER
+Inst96Quest1ID1 = "62041"
+
+--Quest 4 Alliance
+Inst96Quest4Rewardtext = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"..AQDiscription_OR..WHITE.."5"
+--ITEM1
+Inst96Quest4ITC1 = Itemc4;
+Inst96Quest4description1 = AQITEM_MAINHAND .. AQITEM_DAGGER
+Inst96Quest4ID1 = "62028"
+--ITEM2
+Inst96Quest4ITC2 = Itemc4;
+Inst96Quest4description2 = AQITEM_ONEHAND .. AQITEM_AXE
+Inst96Quest4ID2 = "62030"
+--ITEM3
+Inst96Quest4ITC3 = Itemc4;
+Inst96Quest4description3 = AQITEM_ONEHAND .. AQITEM_SWORD
+Inst96Quest4ID3 = "62031"
+--ITEM4
+Inst96Quest4ITC4 = Itemc4;
+Inst96Quest4description4 = AQITEM_MAINHAND .. AQITEM_MACE
+Inst96Quest4ID4 = "62029"
+--ITEM5
+Inst96Quest4ITC5 = Itemc4;
+Inst96Quest4description5 = AQITEM_TWOHAND .. AQITEM_MACE
+Inst96Quest4ID5 = "62032"
+
+--Quest 1 Horde
+Inst96Quest1Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"
+--ITEM1
+Inst96Quest1ITC1_HORDE = Itemc4;
+Inst96Quest1description1_HORDE = AQITEM_BOW
+Inst96Quest1ID1_HORDE = "62042"
+
+--Quest 4 Horde
+Inst96Quest4Rewardtext_HORDE = AQDiscription_REWARD..WHITE.."1"..AQDiscription_OR..WHITE.."2"..AQDiscription_OR..WHITE.."3"..AQDiscription_OR..WHITE.."4"..AQDiscription_OR..WHITE.."5"
+--ITEM1
+Inst96Quest4ITC1_HORDE = Itemc4;
+Inst96Quest4description1_HORDE = AQITEM_MAINHAND .. AQITEM_DAGGER
+Inst96Quest4ID1_HORDE = "62028"
+--ITEM2
+Inst96Quest4ITC2_HORDE = Itemc4;
+Inst96Quest4description2_HORDE = AQITEM_ONEHAND .. AQITEM_AXE
+Inst96Quest4ID2_HORDE = "62030"
+--ITEM3
+Inst96Quest4ITC3_HORDE = Itemc4;
+Inst96Quest4description3_HORDE = AQITEM_ONEHAND .. AQITEM_SWORD
+Inst96Quest4ID3_HORDE = "62031"
+--ITEM4
+Inst96Quest4ITC4_HORDE = Itemc4;
+Inst96Quest4description4_HORDE = AQITEM_MAINHAND .. AQITEM_MACE
+Inst96Quest4ID4_HORDE = "62029"
+--ITEM5
+Inst96Quest4ITC5_HORDE = Itemc4;
+Inst96Quest4description5_HORDE = AQITEM_TWOHAND .. AQITEM_MACE
+Inst96Quest4ID5_HORDE = "62032"
 
 ---------------------------------------------------
 ---------------- BATTLEGROUNDS --------------------
