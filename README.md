@@ -1,5 +1,5 @@
 # AtlasQuest Project Epoch version
-This is a modified version of AtlasQuest that contains Project Epoch custom data. 
+This is a modified version of AtlasQuest that contains Project Epoch custom quest data. 
 > [!WARNING]
 > This is a WIP Addon!
 # Installation
