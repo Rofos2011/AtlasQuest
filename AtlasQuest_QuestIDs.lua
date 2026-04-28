@@ -260,8 +260,9 @@ Inst7Quest4_QuestID = "1200"
 Inst7Quest5_QuestID = "1199"
 Inst7Quest6_QuestID = "27228"
 Inst7Quest7_QuestID = "27053"
-Inst7Quest8_QuestID = "1740"
-Inst7Quest9_QuestID = "1654"
+Inst7Quest8_QuestID = "27037"
+Inst7Quest9_QuestID = "1740"
+Inst7Quest10_QuestID = "1654"
 
 Inst7Quest1_HORDE_QuestID = "6563"
 Inst7Quest2_HORDE_QuestID = "6564"
@@ -284,6 +285,7 @@ AQ_6922_Level = "30"
 AQ_6561_Level = "27"
 AQ_27228_Level = "23"
 AQ_27053_Level = "27"
+AQ_27037_Level = "27"
 AQ_1654_Level = "22"
 
 
@@ -303,6 +305,7 @@ Inst8Quest11_QuestID = "8966"
 Inst8Quest12_QuestID = "8989"
 Inst8Quest13_QuestID = "5306"
 Inst8Quest14_QuestID = "5103"
+Inst8Quest15_QuestID = "31024"
 
 Inst8Quest1_HORDE_QuestID = "4788"
 Inst8Quest2_HORDE_QuestID = "4729"
@@ -317,6 +320,7 @@ Inst8Quest11_HORDE_QuestID = "8966"
 Inst8Quest12_HORDE_QuestID = "8989"
 Inst8Quest13_HORDE_QuestID = "5306"
 Inst8Quest14_HORDE_QuestID = "5103"
+Inst8Quest15_HORDE_QuestID = "31024"
 
 AQ_4788_Level = "58"
 AQ_4729_Level = "59"
@@ -336,6 +340,7 @@ AQ_4724_Level = "59"
 AQ_4981_Level = "59"
 AQ_4982_Level = "59"
 AQ_4903_Level = "60"
+AQ_31024_Level = "60"
 
 
 

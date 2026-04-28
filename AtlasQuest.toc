@@ -1,27 +1,16 @@
 ﻿## Interface: 30300
-## Title: AtlasQuest |cffFF4500ProjectEpoch|r
-## Title-deDE: AtlasQuest |cffFF4500ProjectEpoch|r
-## Title-koKR: AtlasQuest |cffFF4500ProjectEpoch|r
-## Title-zhCN: AtlasQuest |cffFF4500ProjectEpoch|r 副本任务
-## Title-zhTW: |cFFff69b4[任務]|r副本任務 AtlasQuest |cffFF4500ProjectEpoch|r
-## Title-ruRU: Атлас |r|cFF0099FF[Задания]|r |cffFF4500ProjectEpoch|r
+## Title: AtlasQuest |cFFFF9900P|cFFFFA500r|cFFFFB200o|cFFFFBF00j|cFFFFCC11e|cFFFFD922c|cFFFFE633t|cFFFFEE77E|cFFFFEE99p|cFFFFEEBBo|cFFFFFFFFc|cFFFFFFFFh
 ## Notes: Shows the Quests for dungeons and battlegrounds.
-## Notes-deDE: Zeigt die Quests, die es für die jeweiligen Instanzen gibt.
-## Notes-koKR: Shows the Quests for the instance.
-## Notes-zhCN: Atlas插件，在Atlas面板上显示副本相关任务及副本背景等.
-## Notes-zhTW: 顯示副本背景故事、相關任務及BOSS攻略提示
-## Notes-ruRU: Показывает задания в подземельях.
-## Author: Thandrenn
+## Author: Rofos2011
 ## Original Author: Asurn
 ## Updated by: Loather
 ## Updated by: Rabidmax
 ## Updated by: Thandrenn (aka Mystery8)
 ## Updated by: Rofos2011
 ## CLI by: Dazerdude
-## Version: 4.4.3
-## Epoch Version: 0.0.6
-## X-eMail: mystery8@gmail.com
-## X-Website: www.atlasmod.com/phpBB3/
+## Version: v.1.0
+## Based on Version: 4.4.3
+## X-Website: https://github.com/Rofos2011/AtlasQuest
 ## X-Category: MYADDONS_CATEGORY_MAP
 ## X-Date: August 3, 2010
 ## X-Help: AtlasQuestHelp

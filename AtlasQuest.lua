@@ -25,20 +25,21 @@
 -- Colours
 -----------------------------------------------------------------------------
 
-local PURPLE = "|cff999999"; -- grey atm -- removed/useless atm
+local PURPLE = "|cff999999";  -- grey atm -- removed/useless atm
 local RED = "|cffff0000";
 local REDA = "|cffcc6666";
 local WHITE = "|cffFFFFFF";
 local GREEN = "|cff1eff00";
-local GREY = "|cff9F3FFF"; -- purple now ^^
+local GREY = "|cff9F3FFF";    -- purple now ^^
 local BLUE = "|cff0070dd";
-local ORANGE = "|cffff6090"; -- it is pink now
+local ORANGE = "|cffff6090";  -- it is pink now
 local YELLOW = "|cffffff00";
 local BLACK = "|c0000000f";
 local DARKGREEN = "|cff008000";
 local BLUB = "|cffd45e19";
-local EPOCH = "|cffFF4500";
-local DGREEN = "|cff00991a";
+local EPOCH = "|cffFF4500";   -- (New)(Secret) text colors
+local EPOCH2 = "|cffff9900";  -- custom color for Epoch-related texts
+local EPOCHV = "|cFFFF9900P|cFFFFA500r|cFFFFB200o|cFFFFBF00j|cFFFFCC11e|cFFFFD922c|cFFFFE633t|cFFFFEE77E|cFFFFEE99p|cFFFFEEBBo|cFFFFFFFFc|cFFFFFFFFh |cFFFFFFFFv|cFFF3F8FE.|cFFDCEBFD1|cFFD0E4FD.|cFFC4DDFC0";
 
 -- Quest Color
 local Grau = "|cff9d9d9d"
@@ -71,7 +72,7 @@ local AQMAXINSTANCES = "94"
 local AQMAXQUESTS = "20"
 
 -- Set title for AtlasQuest side panel
-ATLASQUEST_VERSION = "AtlasQuest "..EPOCH.."Epoch "..Blau.."v0.0.6";
+ATLASQUEST_VERSION = ""..EPOCH2.."AtlasQuest "..EPOCHV.."";
 
 AQ_ShownSide = "Left"
 AQAtlasAuto = 1;
@@ -80,7 +81,7 @@ AtlasQuestHelp = {};
 AtlasQuestHelp[1] = "[/aq + available command: help, left/right, show/hide, autoshow\ndownload adress:\nhttp://ui.worldofwar.net/ui.php?id=3069, http://www.curse-gaming.com/de/wow/addons-4714-1-atlasquest.html]";
 
 local AtlasQuest_Defaults = {
-  ["Version"] =  "0.0.6",
+  ["Version"] =  "v.1.0",
   [UnitName("player")] = {
     ["ShownSide"] = "Left",
     ["AtlasAutoShow"] = 1,
@@ -625,6 +626,13 @@ local count
         OnlyQuestNameRemovedNumber = strsub(getglobal("Inst"..AQINSTANZ.."Quest"..Quest.."_HORDE"), 5)
       end
     end
+
+    -- Rofos2011 new stuff for Epoch - "..EPOCH.."(New)" --
+    OnlyQuestNameRemovedNumber = string.gsub(OnlyQuestNameRemovedNumber, "|c%x%x%x%x%x%x%x%x", "")
+    OnlyQuestNameRemovedNumber = string.gsub(OnlyQuestNameRemovedNumber, "|r", "")
+    OnlyQuestNameRemovedNumber = string.gsub(OnlyQuestNameRemovedNumber, "%s*%([^%)]+%)%s*$", "")
+    OnlyQuestNameRemovedNumber = string.gsub(OnlyQuestNameRemovedNumber, "^%s*(.-)%s*$", "%1")
+
     --this checks should be done everytime when the questupdate event gets executed
     TotalQuestEntries = GetNumQuestLogEntries();
     for CurrentQuestnum=1, TotalQuestEntries do
@@ -908,6 +916,3 @@ function AtlasQuestItem_ShowCompareItem()
       end
    end   
 end
-
-
-
