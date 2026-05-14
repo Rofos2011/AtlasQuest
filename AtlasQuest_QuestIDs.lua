@@ -82,6 +82,7 @@ Inst2Quest2_QuestID = "959"
 Inst2Quest3_QuestID = "1491"
 Inst2Quest4_QuestID = "1487"
 Inst2Quest5_QuestID = "6981"
+Inst2Quest6_QuestID = "28616"
 
 Inst2Quest1_HORDE_QuestID = "1486"
 Inst2Quest2_HORDE_QuestID = "959"
@@ -90,7 +91,7 @@ Inst2Quest4_HORDE_QuestID = "1491"
 Inst2Quest5_HORDE_QuestID = "1487"
 Inst2Quest6_HORDE_QuestID = "914"
 Inst2Quest7_HORDE_QuestID = "6981"
-
+Inst2Quest8_HORDE_QuestID = "28616"
 
 AQ_1486_Level = "17"
 AQ_959_Level = "18"
@@ -99,6 +100,7 @@ AQ_1487_Level = "21"
 AQ_6981_Level = "26"
 AQ_962_Level = "18"
 AQ_914_Level = "22"
+AQ_28616_Level = "10"
 
 
 
@@ -176,7 +178,7 @@ AQ_2318_Level = "42"
 AQ_2339_Level = "44"
 AQ_2202_Level = "42"
 AQ_2342_Level = "43"
-AQ_26593_Level = "42"
+AQ_26593_Level = "45"
 
 
 
@@ -196,7 +198,12 @@ Inst5Quest11_QuestID = "4362"
 Inst5Quest12_QuestID = "7848"
 Inst5Quest13_QuestID = "9015"
 Inst5Quest14_QuestID = "4083"
-Inst5Quest15_QuestID = "12491"
+--Inst5Quest15_QuestID = "12491" --(NYI)
+Inst5Quest15_QuestID = "26276"
+Inst5Quest16_QuestID = "26277"
+Inst5Quest17_QuestID = "26278"
+Inst5Quest18_QuestID = "26279"
+Inst5Quest19_QuestID = "26280"
 
 Inst5Quest1_HORDE_QuestID = "3802"
 Inst5Quest2_HORDE_QuestID = "4136"
@@ -216,7 +223,9 @@ Inst5Quest15_HORDE_QuestID = "4003"
 Inst5Quest16_HORDE_QuestID = "7848"
 Inst5Quest17_HORDE_QuestID = "9015"
 Inst5Quest18_HORDE_QuestID = "4083"
-Inst5Quest19_HORDE_QuestID = "12492"
+--Inst5Quest19_HORDE_QuestID = "12492"  --(NYI)
+Inst5Quest19_HORDE_QuestID = "26277"
+Inst5Quest20_HORDE_QuestID = "26278"
 
 
 AQ_3802_Level = "52"
@@ -233,7 +242,7 @@ AQ_4362_Level = "59"
 AQ_7848_Level = "60"
 AQ_9015_Level = "60"
 AQ_4083_Level = "55"
-AQ_12491_Level = "80"
+--AQ_12491_Level = "80"  --(NYI)
 AQ_4134_Level = "55"
 AQ_4081_Level = "52"
 AQ_4082_Level = "54"
@@ -244,8 +253,12 @@ AQ_3907_Level = "56"
 AQ_7201_Level = "54"
 AQ_3981_Level = "52"
 AQ_4003_Level = "59"
-AQ_12492_Level = "80"
-
+--AQ_12492_Level = "80"  --(NYI)
+AQ_26276_Level = "55"
+AQ_26277_Level = "54"
+AQ_26278_Level = "56"
+AQ_26279_Level = "57"
+AQ_26280_Level = "54"
 
 
 --------------- INST6 - Blackwing Lair (BWL) ---------------
@@ -306,6 +319,7 @@ Inst8Quest12_QuestID = "8989"
 Inst8Quest13_QuestID = "5306"
 Inst8Quest14_QuestID = "5103"
 Inst8Quest15_QuestID = "31024"
+Inst8Quest15_QuestID = "26957"
 
 Inst8Quest1_HORDE_QuestID = "4788"
 Inst8Quest2_HORDE_QuestID = "4729"
@@ -321,6 +335,7 @@ Inst8Quest12_HORDE_QuestID = "8989"
 Inst8Quest13_HORDE_QuestID = "5306"
 Inst8Quest14_HORDE_QuestID = "5103"
 Inst8Quest15_HORDE_QuestID = "31024"
+Inst8Quest15_HORDE_QuestID = "26961"
 
 AQ_4788_Level = "58"
 AQ_4729_Level = "59"
@@ -341,6 +356,8 @@ AQ_4981_Level = "59"
 AQ_4982_Level = "59"
 AQ_4903_Level = "60"
 AQ_31024_Level = "60"
+AQ_26957_Level = "60"
+AQ_26961_Level = "60"
 
 
 
@@ -412,6 +429,8 @@ Inst13Quest5_QuestID = "7044"
 Inst13Quest6_QuestID = "7046"
 Inst13Quest7_QuestID = "7065"
 Inst13Quest8_QuestID = "7066"
+Inst13Quest9_QuestID = "26299"
+Inst13Quest10_QuestID = "26302"
 
 Inst13Quest1_HORDE_QuestID = "7068"
 Inst13Quest2_HORDE_QuestID = "7029"
@@ -421,6 +440,7 @@ Inst13Quest5_HORDE_QuestID = "7044"
 Inst13Quest6_HORDE_QuestID = "7046"
 Inst13Quest7_HORDE_QuestID = "7064"
 Inst13Quest8_HORDE_QuestID = "7066"
+Inst13Quest8_HORDE_QuestID = "26299"
 
 
 AQ_7070_Level = "42"
@@ -434,6 +454,8 @@ AQ_7066_Level = "51"
 AQ_7068_Level = "42"
 AQ_7029_Level = "47"
 AQ_7064_Level = "51"
+AQ_26299_Level = "47"
+AQ_26302_Level = "51"
 
 
 
@@ -484,9 +506,9 @@ Inst16Quest3_HORDE_QuestID = "24429"
 
 AQ_7509_Level = "60"
 AQ_7495_Level = "60"
-AQ_24428_Level = "80"
+--AQ_24428_Level = "80"  --(NYI)
 AQ_7490_Level = "60"
-AQ_24429_Level = "80"
+--AQ_24429_Level = "80"  --(NYI)
 
 
 
@@ -615,6 +637,8 @@ Inst20Quest8_QuestID = "4771"
 Inst20Quest9_QuestID = "7629"
 Inst20Quest10_QuestID = "8969"
 Inst20Quest11_QuestID = "8992"
+Inst20Quest12_QuestID = "26314"
+Inst20Quest13_QuestID = "7647"
 
 Inst20Quest1_HORDE_QuestID = "5529"
 Inst20Quest2_HORDE_QuestID = "5582"
@@ -628,7 +652,8 @@ Inst20Quest9_HORDE_QuestID = "7629"
 Inst20Quest10_HORDE_QuestID = "8258"
 Inst20Quest11_HORDE_QuestID = "8969"
 Inst20Quest12_HORDE_QuestID = "8992"
-
+Inst20Quest13_HORDE_QuestID = "26422"
+Inst20Quest14_HORDE_QuestID = "26439"
 
 AQ_5529_Level = "58"
 AQ_5582_Level = "58"
@@ -643,7 +668,10 @@ AQ_8969_Level = "60"
 AQ_8992_Level = "60"
 AQ_5341_Level = "60"
 AQ_8258_Level = "60"
-
+AQ_26314_Level = "60"
+AQ_26422_Level = "60"
+AQ_7647_Level = "60"
+AQ_26439_Level = "60"
 
 
 --------------- INST21 - Shadowfang Keep (SFK) ---------------
@@ -662,12 +690,12 @@ Inst21Quest6_HORDE_QuestID = "14483"
 
 --AQ_1654_Level = "22"  -- Already used for Deadmines. Left here just for the note.
 --AQ_1740_Level = "25"  -- Already used for Blackfathom Deeps. Left here just for the note.
-AQ_24745_Level = "80"
+--AQ_24745_Level = "80"  --(NYI)
 AQ_1098_Level = "25"
 AQ_1013_Level = "26"
 AQ_1014_Level = "27"
 AQ_26312_Level = "22"
-AQ_14483_Level = "80"
+--AQ_14483_Level = "80"  --(NYI)
 
 
 
@@ -711,7 +739,7 @@ Inst22Quest16_HORDE_QuestID = "5307"
 Inst22Quest17_HORDE_QuestID = "5305"
 Inst22Quest18_HORDE_QuestID = "6163"
 Inst22Quest19_HORDE_QuestID = "7622"
-Inst22Quest20_HORDE_QuestID = "9737"
+Inst22Quest20_HORDE_QuestID = "26433"
 
 
 AQ_5212_Level = "60"
@@ -736,7 +764,7 @@ AQ_5307_Level = "60"
 AQ_5305_Level = "60"
 AQ_7622_Level = "60"
 AQ_6163_Level = "60"
-AQ_9737_Level = "60"
+AQ_26433_Level = "60"
 
 
 
@@ -774,7 +802,7 @@ Inst25Quest7_QuestID = "1446"
 Inst25Quest8_QuestID = "3373"
 Inst25Quest9_QuestID = "8422"
 Inst25Quest10_QuestID = "8425"
-Inst25Quest11_QuestID = "8413"
+Inst25Quest11_QuestID = "26837"
 Inst25Quest12_QuestID = "9053"
 Inst25Quest13_QuestID = "8232"
 Inst25Quest14_QuestID = "8253"
@@ -798,7 +826,9 @@ Inst25Quest13_HORDE_QuestID = "8232"
 Inst25Quest14_HORDE_QuestID = "8253"
 Inst25Quest15_HORDE_QuestID = "8257"
 Inst25Quest16_HORDE_QuestID = "8236"
-Inst25Quest17_HORDE_QuestID = "10593"
+Inst25Quest17_HORDE_QuestID = "26466"
+Inst25Quest18_HORDE_QuestID = "26318"
+--Inst25Quest18_HORDE_QuestID = "26317"
 
 
 AQ_1475_Level = "50"
@@ -812,6 +842,7 @@ AQ_3373_Level = "55"
 AQ_8422_Level = "52"
 AQ_8425_Level = "52"
 AQ_8413_Level = "52"
+AQ_26837_Level = "52"
 AQ_9053_Level = "52"
 AQ_8232_Level = "52"
 AQ_8253_Level = "52"
@@ -821,7 +852,9 @@ AQ_8418_Level = "52"
 AQ_1445_Level = "50"
 AQ_3380_Level = "51"
 AQ_4146_Level = "52"
-AQ_10593_Level = "52"
+AQ_26466_Level = "52"
+AQ_26318_Level = "48"
+--AQ_26317_Level = "48"
 
 
 
@@ -845,6 +878,7 @@ Inst27Quest4_HORDE_QuestID = "2846"
 Inst27Quest5_HORDE_QuestID = "3527"
 Inst27Quest6_HORDE_QuestID = "2768"
 Inst27Quest7_HORDE_QuestID = "2770"
+Inst27Quest8_HORDE_QuestID = "27456"
 
 
 AQ_3042_Level = "45"
@@ -855,7 +889,7 @@ AQ_3527_Level = "47"
 AQ_2768_Level = "47"
 AQ_2770_Level = "50"
 AQ_2936_Level = "45"
-
+AQ_27456_Level = "46"
 
 
 --------------- INST28 - Zul'Gurub (ZG) ---------------
@@ -936,17 +970,21 @@ Inst96Quest1_QuestID = "26340"
 Inst96Quest2_QuestID = "8967"
 Inst96Quest3_QuestID = "8990"
 Inst96Quest4_QuestID = "26325"
+Inst96Quest5_QuestID = "26343"
 
 Inst96Quest1_HORDE_QuestID = "26342"
 Inst96Quest2_HORDE_QuestID = "8967"
 Inst96Quest3_HORDE_QuestID = "8990"
 Inst96Quest4_HORDE_QuestID = "26325"
+Inst96Quest5_HORDE_QuestID = "26337"
 
 AQ_26342_Level = "60"
 AQ_26340_Level = "60"
 AQ_26325_Level = "60"
 AQ_8967_Level = "60"
 AQ_8990_Level = "60"
+AQ_26343_Level = "60"
+AQ_26337_Level = "60"
 
 ---------------------------------------------------
 ---------------- BATTLEGROUNDS --------------------

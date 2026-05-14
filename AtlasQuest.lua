@@ -39,7 +39,7 @@ local DARKGREEN = "|cff008000";
 local BLUB = "|cffd45e19";
 local EPOCH = "|cffFF4500";   -- (New)(Secret) text colors
 local EPOCH2 = "|cffff9900";  -- custom color for Epoch-related texts
-local EPOCHV = "|cFFFF9900P|cFFFFA500r|cFFFFB200o|cFFFFBF00j|cFFFFCC11e|cFFFFD922c|cFFFFE633t|cFFFFEE77E|cFFFFEE99p|cFFFFEEBBo|cFFFFFFFFc|cFFFFFFFFh |cFFFFFFFFv|cFFF3F8FE.|cFFDCEBFD1|cFFD0E4FD.|cFFC4DDFC0";
+local EPOCHV = "|cFFFF9900P|cFFFFA500r|cFFFFB200o|cFFFFBF00j|cFFFFCC11e|cFFFFD922c|cFFFFE633t|cFFFFEE77E|cFFFFEE99p|cFFFFEEBBo|cFFFFFFFFc|cFFFFFFFFh |cFFFFFFFFv|cFFF3F8FE.|cFFDCEBFD1|cFFD0E4FD.|cFFC4DDFC1";
 
 -- Quest Color
 local Grau = "|cff9d9d9d"
@@ -68,7 +68,7 @@ AQINSTATM = ""; -- variable to check whether AQINSTANZ has changed (see function
 --AQAtlasAuto (option to show the AQpanel automatically at atlas-startup, 1=yes 2=no)
 
 -- Sets the max number of instances and quests to check for. 
-local AQMAXINSTANCES = "94"
+local AQMAXINSTANCES = "140"
 local AQMAXQUESTS = "20"
 
 -- Set title for AtlasQuest side panel
@@ -81,7 +81,7 @@ AtlasQuestHelp = {};
 AtlasQuestHelp[1] = "[/aq + available command: help, left/right, show/hide, autoshow\ndownload adress:\nhttp://ui.worldofwar.net/ui.php?id=3069, http://www.curse-gaming.com/de/wow/addons-4714-1-atlasquest.html]";
 
 local AtlasQuest_Defaults = {
-  ["Version"] =  "v.1.0",
+  ["Version"] =  "v.1.1",
   [UnitName("player")] = {
     ["ShownSide"] = "Left",
     ["AtlasAutoShow"] = 1,
@@ -326,14 +326,14 @@ function atlasquest_command(param)
   elseif (param == "inst a") then
      ChatFrame1:AddMessage(RED..getglobal("Inst"..AQINSTANZ.."Caption"));
      ChatFrame1:AddMessage(GREY..getglobal("Inst"..AQINSTANZ.."QAA"));
-     for q=1,20 do
+     for q=1,21 do
         ChatFrame1:AddMessage(Orange..getglobal("Inst"..AQINSTANZ.."Quest"..q));
      end
   --List of Horde Quests
   elseif (param == "inst h") then
      ChatFrame1:AddMessage(RED..getglobal("Inst"..AQINSTANZ.."Caption"));
      ChatFrame1:AddMessage(GREY..getglobal("Inst"..AQINSTANZ.."QAH"));
-     for q=1,20 do
+     for q=1,21 do
         ChatFrame1:AddMessage(Orange..getglobal("Inst"..AQINSTANZ.."Quest"..q.."_HORDE"));
      end
      
@@ -430,10 +430,10 @@ function AQ_AtlasOrAlphamap()
            AtlasQuestFrame:SetParent(AtlasFrame);
            if (AQ_ShownSide == "Right" ) then
                AtlasQuestFrame:ClearAllPoints();
-               AtlasQuestFrame:SetPoint("TOP","AtlasFrame", 570, -83);
+               AtlasQuestFrame:SetPoint("TOP","AtlasFrame", 570, -83);   --Rofos2011 AQButton click window pos
            else
                AtlasQuestFrame:ClearAllPoints();
-               AtlasQuestFrame:SetPoint("TOP","AtlasFrame", -560, -82);
+               AtlasQuestFrame:SetPoint("TOP","AtlasFrame", -560, -82);  --Rofos2011 AQButton click window pos (left)
            end
            AtlasQuestInsideFrame:SetParent(AtlasFrame);
            AtlasQuestInsideFrame:ClearAllPoints();
@@ -699,7 +699,7 @@ function Atlas_OnShow()
    -- AQ_AtlasOrAlphamap();
    if (AQ_ShownSide == "Right") then
        AtlasQuestFrame:ClearAllPoints();
-       AtlasQuestFrame:SetPoint("TOP","AtlasFrame", 570, -83);
+       AtlasQuestFrame:SetPoint("TOP","AtlasFrame", 570, -83);   --Rofos2011 same as 433
   end
   original_Atlas_OnShow(); -- new line #2
 end

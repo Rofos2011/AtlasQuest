@@ -8,11 +8,11 @@
 ## Updated by: Thandrenn (aka Mystery8)
 ## Updated by: Rofos2011
 ## CLI by: Dazerdude
-## Version: v.1.0
+## Version: v.1.1
 ## Based on Version: 4.4.3
 ## X-Website: https://github.com/Rofos2011/AtlasQuest
 ## X-Category: MYADDONS_CATEGORY_MAP
-## X-Date: August 3, 2010
+## X-Date: May 13, 2026
 ## X-Help: AtlasQuestHelp
 ## RequiredDeps: 
 ## OptionalDeps: Atlas, AlphaMap, myAddOns
