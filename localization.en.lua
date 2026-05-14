@@ -3757,7 +3757,7 @@ Inst21Quest5name1_HORDE = Inst3Quest6name1_HORDE
 Inst22Story = "Once the jewel of northern Lordaeron, the city of Stratholme is where Prince Arthas turned against his mentor, Uther Lightbringer, and slaughtered hundreds of his own subjects who were believed to have contracted the dreaded plague of undeath. Arthas' downward spiral and ultimate surrender to the Lich King soon followed. The broken city is now inhabited by the undead Scourge - led by the powerful lich, Kel'thuzad. A contingent of Scarlet Crusaders, led by Grand Crusader Dathrohan, also holds a portion of the ravaged city. The two sides are locked in constant, violent combat. Those adventurers brave (or foolish) enough to enter Stratholme will be forced to contend with both factions before long. It is said that the city is guarded by three massive watchtowers, as well as powerful necromancers, banshees and abominations. There have also been reports of a malefic Death Knight riding atop an unholy steed - dispensing indiscriminate wrath on all those who venture within the realm of the Scourge."
 Inst22Caption = "Stratholme"
 Inst22QAA = "18 Quests"
-Inst22QAH = "19 Quests"
+Inst22QAH = "20 Quests"
 
 --Quest 1 Alliance
 Inst22Quest1 = "1. The Flesh Does Not Lie"
