@@ -39,7 +39,7 @@ local DARKGREEN = "|cff008000";
 local BLUB = "|cffd45e19";
 local EPOCH = "|cffFF4500";   -- (New)(Secret) text colors
 local EPOCH2 = "|cffff9900";  -- custom color for Epoch-related texts
-local EPOCHV = "|cFFFF9900P|cFFFFA500r|cFFFFB200o|cFFFFBF00j|cFFFFCC11e|cFFFFD922c|cFFFFE633t|cFFFFEE77E|cFFFFEE99p|cFFFFEEBBo|cFFFFFFFFc|cFFFFFFFFh |cFFFFFFFFv|cFFF3F8FE.|cFFDCEBFD1|cFFD0E4FD.|cFFC4DDFC1";
+local EPOCHV = "|cFFFF9900P|cFFFFA500r|cFFFFB200o|cFFFFBF00j|cFFFFCC11e|cFFFFD922c|cFFFFE633t|cFFFFEE77E|cFFFFEE99p|cFFFFEEBBo|cFFFFFFFFc|cFFFFFFFFh |cFFFFFFFFv|cFFF3F8FE.|cFFDCEBFD1|cFFD0E4FD.|cFFC4DDFC2";
 
 -- Quest Color
 local Grau = "|cff9d9d9d"
@@ -69,7 +69,7 @@ AQINSTATM = ""; -- variable to check whether AQINSTANZ has changed (see function
 
 -- Sets the max number of instances and quests to check for. 
 local AQMAXINSTANCES = "140"
-local AQMAXQUESTS = "20"
+local AQMAXQUESTS = "30"
 
 -- Set title for AtlasQuest side panel
 ATLASQUEST_VERSION = ""..EPOCH2.."AtlasQuest "..EPOCHV.."";
@@ -81,7 +81,7 @@ AtlasQuestHelp = {};
 AtlasQuestHelp[1] = "[/aq + available command: help, left/right, show/hide, autoshow\ndownload adress:\nhttp://ui.worldofwar.net/ui.php?id=3069, http://www.curse-gaming.com/de/wow/addons-4714-1-atlasquest.html]";
 
 local AtlasQuest_Defaults = {
-  ["Version"] =  "v.1.1",
+  ["Version"] =  "v.1.2",
   [UnitName("player")] = {
     ["ShownSide"] = "Left",
     ["AtlasAutoShow"] = 1,
@@ -209,27 +209,6 @@ end
 --******************************************
 -- Events: OnLoad
 --******************************************
-
------------------------------------------------------------------------------
--- Call OnLoad set Variables and hides the panel
------------------------------------------------------------------------------
-function AQ_OnLoad()
-    this:RegisterEvent("PLAYER_ENTERING_WORLD");
-    this:RegisterEvent("VARIABLES_LOADED");
-    AQSetButtontext(); -- translation for all buttons
-    if ( AtlasFrame ) then
-    	AQATLASMAP = AtlasMap:GetTexture()
-    else
-	  AQATLASMAP = 36;
-    end
-    --this:RegisterForDrag("LeftButton");
-    AQSlashCommandfunction();
-	-- not showed yet
-    HideUIPanel(AtlasQuestFrame);
-    HideUIPanel(AtlasQuestInsideFrame);
-    HideUIPanel(AtlasQuestOptionFrame);
-    AQUpdateNOW = true;
-end
 
 
 -----------------------------------------------------------------------------
@@ -430,10 +409,10 @@ function AQ_AtlasOrAlphamap()
            AtlasQuestFrame:SetParent(AtlasFrame);
            if (AQ_ShownSide == "Right" ) then
                AtlasQuestFrame:ClearAllPoints();
-               AtlasQuestFrame:SetPoint("TOP","AtlasFrame", 570, -83);   --Rofos2011 AQButton click window pos
+               AtlasQuestFrame:SetPoint("TOP","AtlasFrame", 584, -10);		--Rofos2011 AQButton click window pos (right), same as 702, 109 of OptionUI
            else
                AtlasQuestFrame:ClearAllPoints();
-               AtlasQuestFrame:SetPoint("TOP","AtlasFrame", -560, -82);  --Rofos2011 AQButton click window pos (left)
+               AtlasQuestFrame:SetPoint("TOP","AtlasFrame", -570, -10);		-- Rofos2011 frame natural pos (Left) --same as 436 of .lua, 130 of OptionUI, 395 of .xml
            end
            AtlasQuestInsideFrame:SetParent(AtlasFrame);
            AtlasQuestInsideFrame:ClearAllPoints();
@@ -452,6 +431,10 @@ function AQ_AtlasOrAlphamap()
            AtlasQuestInsideFrame:SetParent(AlphaMapFrame);
            AtlasQuestInsideFrame:ClearAllPoints();
            AtlasQuestInsideFrame:SetPoint("TOPLEFT","AlphaMapFrame", 1, -108);
+
+           AtlasQuestFrame:SetFrameStrata("HIGH")
+           AtlasQuestFrame:SetToplevel(false)
+
         end
 end
 
@@ -593,6 +576,7 @@ local AQQuestfarbe2
              end
            end
        end
+    AtlasQuest_UpdateScrollBar()
 end
 
 
@@ -699,7 +683,7 @@ function Atlas_OnShow()
    -- AQ_AtlasOrAlphamap();
    if (AQ_ShownSide == "Right") then
        AtlasQuestFrame:ClearAllPoints();
-       AtlasQuestFrame:SetPoint("TOP","AtlasFrame", 570, -83);   --Rofos2011 same as 433
+       AtlasQuestFrame:SetPoint("TOP","AtlasFrame", 584, -10);   --Rofos2011 AQButton click window pos (right), same as 702, 109 of OptionUI, 433 of lua
   end
   original_Atlas_OnShow(); -- new line #2
 end
@@ -845,7 +829,11 @@ function AQ_OnShow()
       AQHCB:SetChecked(false);
       AQACB:SetChecked(true);
    end
-  AtlasQuestSetTextandButtons()
+   
+   AtlasQuestSetTextandButtons()
+   
+   -- Extra safety
+   C_Timer.After(0.1, AtlasQuest_UpdateScrollBar)
 end
 
 
@@ -915,4 +903,105 @@ function AtlasQuestItem_ShowCompareItem()
          ShoppingTooltip2:Show();
       end
    end   
+end
+
+-----------------------------------------------------------------------------
+-- HIGH strata, below Atlas only - Rofos2011
+-----------------------------------------------------------------------------
+function AtlasQuest_ApplyFrameFix()
+    local function ForceBelow()
+        if not AtlasQuestFrame or not AtlasFrame then return end
+        
+        AtlasQuestFrame:SetFrameStrata("HIGH")
+        AtlasQuestFrame:SetToplevel(false)
+
+        local atlasLevel = AtlasFrame:GetFrameLevel()
+        local newLevel = atlasLevel - 30   --try -40 or -50 if needed
+        
+        if newLevel < 1 then 
+            newLevel = 1 
+        end
+        
+        AtlasQuestFrame:SetFrameLevel(newLevel)
+    end
+
+    -- Initial setup
+    ForceBelow()
+
+    -- Only run when frames are shown (much cleaner)
+    AtlasQuestFrame:HookScript("OnShow", ForceBelow)
+    
+    if AtlasFrame then
+        AtlasFrame:HookScript("OnShow", ForceBelow)
+    end
+
+    -- Removed heavy OnUpdate to prevent breaking other functions
+end
+
+-- Call fix after initialization
+local old_AQ_OnEvent = AtlasQuest_OnEvent
+function AtlasQuest_OnEvent(...)
+    old_AQ_OnEvent(...)
+    if event == "VARIABLES_LOADED" or event == "PLAYER_ENTERING_WORLD" then
+        AtlasQuest_ApplyFrameFix()
+    end
+end
+
+-----------------------------------------------------------------------------
+-- Smart Scrollbar - 
+-----------------------------------------------------------------------------
+function AtlasQuest_UpdateScrollBar()
+    local scrollFrame = _G["AtlasQuestScrollFrame"]
+    if not scrollFrame then return end
+    
+    local scrollbar = _G[scrollFrame:GetName() .. "ScrollBar"]
+    if not scrollbar then return end
+    
+    local text = AtlasQuestAnzahl:GetText() or ""
+    local questCount = tonumber(string.match(text, "%d+")) or 0
+    
+    if questCount > 23 then
+        scrollbar:Show()
+        scrollbar:SetAlpha(1)
+        scrollFrame:UpdateScrollChildRect()
+        local maxScroll = math.max(0, scrollFrame:GetVerticalScrollRange())
+        scrollbar:SetMinMaxValues(0, maxScroll)
+    else
+        scrollbar:Hide()
+        scrollbar:SetAlpha(1)           -- reset alpha
+        scrollFrame:SetVerticalScroll(0)
+        scrollbar:SetMinMaxValues(0, 0)
+        scrollbar:SetValue(0)
+    end
+end
+
+
+-----------------------------------------------------------------------------
+-- Initial fix for login/reload
+-----------------------------------------------------------------------------
+local function AtlasQuest_InitialScrollFix()
+    C_Timer.After(0.4, AtlasQuest_UpdateScrollBar)
+end
+
+
+-----------------------------------------------------------------------------
+-- Call OnLoad
+-----------------------------------------------------------------------------
+function AQ_OnLoad()
+    this:RegisterEvent("PLAYER_ENTERING_WORLD");
+    this:RegisterEvent("VARIABLES_LOADED");
+    AQSetButtontext(); 
+    if ( AtlasFrame ) then
+        AQATLASMAP = AtlasMap:GetTexture()
+    else
+      AQATLASMAP = 36;
+    end
+    AQSlashCommandfunction();
+    
+    HideUIPanel(AtlasQuestFrame);
+    HideUIPanel(AtlasQuestInsideFrame);
+    HideUIPanel(AtlasQuestOptionFrame);
+    AQUpdateNOW = true;
+
+    AtlasQuest_InitialScrollFix()
 end

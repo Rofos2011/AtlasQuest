@@ -210,21 +210,32 @@ else
 end
 
 
--- Remove the beginning number from the quest name
-if (Quest <= 9) then
-	if (Allianceorhorde == 1) then
-		AQ_QuestName = strsub(getglobal("Inst"..AQINSTANZ.."Quest"..Quest), 4)
+    -- Remove the beginning number from the quest name (for display fallback)
+    if (Quest <= 9) then
+        if (Allianceorhorde == 1) then
+            AQ_QuestName = strsub(getglobal("Inst"..AQINSTANZ.."Quest"..Quest), 4)
+        elseif (Allianceorhorde == 2) then
+            AQ_QuestName = strsub(getglobal("Inst"..AQINSTANZ.."Quest"..Quest.."_HORDE"), 4)
+        end
+    elseif (Quest > 9) then
+        if (Allianceorhorde == 1) then
+            AQ_QuestName = strsub(getglobal("Inst"..AQINSTANZ.."Quest"..Quest), 5)
+        elseif (Allianceorhorde == 2) then
+            AQ_QuestName = strsub(getglobal("Inst"..AQINSTANZ.."Quest"..Quest.."_HORDE"), 5)
+        end
+    end
 
-	elseif (Allianceorhorde == 2) then
-		AQ_QuestName = strsub(getglobal("Inst"..AQINSTANZ.."Quest"..Quest.."_HORDE"), 4)
-	end
-elseif (Quest > 9) then
-	if (Allianceorhorde == 1) then
-		AQ_QuestName = strsub(getglobal("Inst"..AQINSTANZ.."Quest"..Quest), 5)
-	elseif (Allianceorhorde == 2) then
-		AQ_QuestName = strsub(getglobal("Inst"..AQINSTANZ.."Quest"..Quest.."_HORDE"), 5)
-	end
-end
+    -- === NEW: Clean name for quest linking (removes colors, tags, etc.) ===
+    -- First, strip color codes
+    AQ_QuestNameClean = string.gsub(AQ_QuestName, "|c%x%x%x%x%x%x%x%x", "")  -- remove |cRRGGBB
+    AQ_QuestNameClean = string.gsub(AQ_QuestNameClean, "|r", "")             -- remove |r
+    
+    -- Remove common tags you add (add more as needed)
+    AQ_QuestNameClean = string.gsub(AQ_QuestNameClean, "%s*%([^%)]+%)", "")   -- remove (New), (Class), etc.
+    AQ_QuestNameClean = string.trim(AQ_QuestNameClean)                        -- remove extra spaces
+    
+    -- Use the clean name for the link, fallback to original if something goes wrong
+    local LinkName = AQ_QuestNameClean or AQ_QuestName
 
 
 -- Grab the quest level. Use new variable to assure that it's actually set.
@@ -239,7 +250,7 @@ end
 
 
 -- Grab the Quest Link string using the ID and hopefully use the localized quest name for the link.
-local AQ_QuestLink = "|cffffff00|Hquest:"..AQ_QuestID..":"..AQ_QuestLevel.."|h["..AQ_QuestName.."]|h|r";
+    local AQ_QuestLink = "|cffffff00|Hquest:"..AQ_QuestID..":"..AQ_QuestLevel.."|h["..LinkName.."]|h|r";
 
 
 --[[ Debug Stuff

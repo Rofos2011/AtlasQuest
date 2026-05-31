@@ -1,5 +1,6 @@
 ﻿## Interface: 30300
 ## Title: AtlasQuest |cFFFF9900P|cFFFFA500r|cFFFFB200o|cFFFFBF00j|cFFFFCC11e|cFFFFD922c|cFFFFE633t|cFFFFEE77E|cFFFFEE99p|cFFFFEEBBo|cFFFFFFFFc|cFFFFFFFFh
+## SavedVariables: AQCompletedQuestDB
 ## Notes: Shows the Quests for dungeons and battlegrounds.
 ## Author: Rofos2011
 ## Original Author: Asurn
@@ -8,7 +9,7 @@
 ## Updated by: Thandrenn (aka Mystery8)
 ## Updated by: Rofos2011
 ## CLI by: Dazerdude
-## Version: v.1.1
+## Version: v.1.2
 ## Based on Version: 4.4.3
 ## X-Website: https://github.com/Rofos2011/AtlasQuest
 ## X-Category: MYADDONS_CATEGORY_MAP

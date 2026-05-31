@@ -191,19 +191,30 @@ Inst5Quest4_QuestID = "4126"
 Inst5Quest5_QuestID = "4262"
 Inst5Quest6_QuestID = "4263"
 Inst5Quest7_QuestID = "4123"
-Inst5Quest8_QuestID = "4286"
-Inst5Quest9_QuestID = "4024"
-Inst5Quest10_QuestID = "4341"
-Inst5Quest11_QuestID = "4362"
-Inst5Quest12_QuestID = "7848"
-Inst5Quest13_QuestID = "9015"
-Inst5Quest14_QuestID = "4083"
+Inst5Quest8_QuestID = "4341"
+Inst5Quest9_QuestID = "4362"
+Inst5Quest10_QuestID = "4024"
+Inst5Quest11_QuestID = "4241"
+Inst5Quest12_QuestID = "4242"
+Inst5Quest13_QuestID = "4264"
+Inst5Quest14_QuestID = "4282"
+Inst5Quest15_QuestID = "4322"
+Inst5Quest16_QuestID = "26306"
+Inst5Quest17_QuestID = "9015"
+Inst5Quest18_QuestID = "4083"
 --Inst5Quest15_QuestID = "12491" --(NYI)
-Inst5Quest15_QuestID = "26276"
-Inst5Quest16_QuestID = "26277"
-Inst5Quest17_QuestID = "26278"
-Inst5Quest18_QuestID = "26279"
-Inst5Quest19_QuestID = "26280"
+Inst5Quest19_QuestID = "8961"
+Inst5Quest20_QuestID = "26277"
+Inst5Quest21_QuestID = "26278"
+Inst5Quest22_QuestID = "26247"
+Inst5Quest23_QuestID = "26867"
+Inst5Quest24_QuestID = "26648"
+Inst5Quest25_QuestID = "26418"
+Inst5Quest26_QuestID = "4286"
+Inst5Quest27_QuestID = "26279"
+Inst5Quest28_QuestID = "26276"
+Inst5Quest29_QuestID = "26280"
+
 
 Inst5Quest1_HORDE_QuestID = "3802"
 Inst5Quest2_HORDE_QuestID = "4136"
@@ -220,13 +231,17 @@ Inst5Quest12_HORDE_QuestID = "3907"
 Inst5Quest13_HORDE_QuestID = "7201"
 Inst5Quest14_HORDE_QuestID = "3981"
 Inst5Quest15_HORDE_QuestID = "4003"
-Inst5Quest16_HORDE_QuestID = "7848"
+Inst5Quest16_HORDE_QuestID = "26306"	--7848
 Inst5Quest17_HORDE_QuestID = "9015"
 Inst5Quest18_HORDE_QuestID = "4083"
 --Inst5Quest19_HORDE_QuestID = "12492"  --(NYI)
-Inst5Quest19_HORDE_QuestID = "26277"
-Inst5Quest20_HORDE_QuestID = "26278"
-
+Inst5Quest19_HORDE_QuestID = "8961"
+Inst5Quest20_HORDE_QuestID = "26277"
+Inst5Quest21_HORDE_QuestID = "26278"
+Inst5Quest22_HORDE_QuestID = "26247"
+Inst5Quest23_HORDE_QuestID = "26867"
+Inst5Quest24_HORDE_QuestID = "26648"
+Inst5Quest25_HORDE_QuestID = "26421"
 
 AQ_3802_Level = "52"
 AQ_4136_Level = "53"
@@ -239,7 +254,7 @@ AQ_4286_Level = "56"
 AQ_4024_Level = "58"
 AQ_4341_Level = "59"
 AQ_4362_Level = "59"
-AQ_7848_Level = "60"
+AQ_26306_Level = "60"
 AQ_9015_Level = "60"
 AQ_4083_Level = "55"
 --AQ_12491_Level = "80"  --(NYI)
@@ -254,11 +269,22 @@ AQ_7201_Level = "54"
 AQ_3981_Level = "52"
 AQ_4003_Level = "59"
 --AQ_12492_Level = "80"  --(NYI)
+AQ_8961_Level = "60"
 AQ_26276_Level = "55"
 AQ_26277_Level = "54"
 AQ_26278_Level = "56"
 AQ_26279_Level = "57"
 AQ_26280_Level = "54"
+AQ_26247_Level = "55"
+AQ_26867_Level = "52"
+AQ_26648_Level = "55"
+AQ_26418_Level = "50"
+AQ_26421_Level = "50"
+AQ_4241_Level = "54"
+AQ_4242_Level = "54"
+AQ_4264_Level = "58"
+AQ_4282_Level = "58"
+AQ_4322_Level = "58"
 
 
 --------------- INST6 - Blackwing Lair (BWL) ---------------
@@ -283,7 +309,7 @@ Inst7Quest3_HORDE_QuestID = "6921"
 Inst7Quest4_HORDE_QuestID = "6922"
 Inst7Quest5_HORDE_QuestID = "6561"
 Inst7Quest6_HORDE_QuestID = "1740"
-
+Inst7Quest7_HORDE_QuestID = "26312"
 
 AQ_971_Level = "23"
 AQ_1275_Level = "24"
@@ -300,6 +326,7 @@ AQ_27228_Level = "23"
 AQ_27053_Level = "27"
 AQ_27037_Level = "27"
 AQ_1654_Level = "22"
+AQ_26312_Level = "22"
 
 
 --------------- INST8 - Lower Blackrock Spire (LBRS) ---------------
@@ -319,7 +346,8 @@ Inst8Quest12_QuestID = "8989"
 Inst8Quest13_QuestID = "5306"
 Inst8Quest14_QuestID = "5103"
 Inst8Quest15_QuestID = "31024"
-Inst8Quest15_QuestID = "26957"
+Inst8Quest16_QuestID = "26957"
+Inst8Quest17_QuestID = "26496"
 
 Inst8Quest1_HORDE_QuestID = "4788"
 Inst8Quest2_HORDE_QuestID = "4729"
@@ -335,7 +363,8 @@ Inst8Quest12_HORDE_QuestID = "8989"
 Inst8Quest13_HORDE_QuestID = "5306"
 Inst8Quest14_HORDE_QuestID = "5103"
 Inst8Quest15_HORDE_QuestID = "31024"
-Inst8Quest15_HORDE_QuestID = "26961"
+Inst8Quest16_HORDE_QuestID = "26961"
+Inst8Quest17_HORDE_QuestID = "26496"
 
 AQ_4788_Level = "58"
 AQ_4729_Level = "59"
@@ -358,7 +387,7 @@ AQ_4903_Level = "60"
 AQ_31024_Level = "60"
 AQ_26957_Level = "60"
 AQ_26961_Level = "60"
-
+AQ_26496_Level = "60"
 
 
 --------------- INST9 - Upper Blackrock Spire (UBRS) ---------------
@@ -369,11 +398,13 @@ Inst9Quest3_QuestID = "4734"
 Inst9Quest4_QuestID = "6821"
 Inst9Quest5_QuestID = "5102"
 Inst9Quest6_QuestID = "4764"
-Inst9Quest7_QuestID = "7761"
-Inst9Quest8_QuestID = "8994"
-Inst9Quest9_QuestID = "8995"
-Inst9Quest10_QuestID = "5127"
-Inst9Quest11_QuestID = "4735"
+Inst9Quest7_QuestID = "6502"
+Inst9Quest8_QuestID = "7761"
+Inst9Quest9_QuestID = "8994"
+Inst9Quest10_QuestID = "8995"
+Inst9Quest11_QuestID = "5127"
+Inst9Quest12_QuestID = "4735"
+Inst9Quest13_QuestID = "8961"
 
 Inst9Quest1_HORDE_QuestID = "5160"
 Inst9Quest2_HORDE_QuestID = "5047"
@@ -388,7 +419,7 @@ Inst9Quest10_HORDE_QuestID = "8994"
 Inst9Quest11_HORDE_QuestID = "8995"
 Inst9Quest12_HORDE_QuestID = "5127"
 Inst9Quest13_HORDE_QuestID = "4735"
-
+Inst9Quest14_HORDE_QuestID = "8961"
 
 AQ_5160_Level = "60"
 AQ_5047_Level = "60"
@@ -405,7 +436,8 @@ AQ_4768_Level = "60"
 AQ_4974_Level = "60"
 AQ_6569_Level = "60"
 AQ_6602_Level = "60"
-
+AQ_6502_Level = "60"
+AQ_8961_Level = "60"
 
 
 --------------- INST10 - Dire Maul East (DM) ---------------
@@ -440,7 +472,7 @@ Inst13Quest5_HORDE_QuestID = "7044"
 Inst13Quest6_HORDE_QuestID = "7046"
 Inst13Quest7_HORDE_QuestID = "7064"
 Inst13Quest8_HORDE_QuestID = "7066"
-Inst13Quest8_HORDE_QuestID = "26299"
+Inst13Quest9_HORDE_QuestID = "26299"
 
 
 AQ_7070_Level = "42"
@@ -639,6 +671,7 @@ Inst20Quest10_QuestID = "8969"
 Inst20Quest11_QuestID = "8992"
 Inst20Quest12_QuestID = "26314"
 Inst20Quest13_QuestID = "7647"
+Inst20Quest14_QuestID = "31015"
 
 Inst20Quest1_HORDE_QuestID = "5529"
 Inst20Quest2_HORDE_QuestID = "5582"
@@ -654,6 +687,8 @@ Inst20Quest11_HORDE_QuestID = "8969"
 Inst20Quest12_HORDE_QuestID = "8992"
 Inst20Quest13_HORDE_QuestID = "26422"
 Inst20Quest14_HORDE_QuestID = "26439"
+Inst20Quest15_HORDE_QuestID = "26316"
+Inst20Quest16_HORDE_QuestID = "31015"
 
 AQ_5529_Level = "58"
 AQ_5582_Level = "58"
@@ -672,6 +707,8 @@ AQ_26314_Level = "60"
 AQ_26422_Level = "60"
 AQ_7647_Level = "60"
 AQ_26439_Level = "60"
+AQ_26316_Level = "60"
+AQ_31015_Level = "60"
 
 
 --------------- INST21 - Shadowfang Keep (SFK) ---------------
@@ -715,10 +752,13 @@ Inst22Quest11_QuestID = "5263"
 Inst22Quest12_QuestID = "8945"
 Inst22Quest13_QuestID = "8968"
 Inst22Quest14_QuestID = "8991"
-Inst22Quest15_QuestID = "9257"
+--Inst22Quest15_QuestID = "9257"	--(NYI)
+Inst22Quest15_QuestID = "7643"
 Inst22Quest16_QuestID = "5307"
 Inst22Quest17_QuestID = "5305"
-Inst22Quest18_QuestID = "7622"
+Inst22Quest18_QuestID = "26475"
+--Inst22Quest18_QuestID = "7622"	--(NYI)
+Inst22Quest19_QuestID = "26741"
 
 Inst22Quest1_HORDE_QuestID = "5212"
 Inst22Quest2_HORDE_QuestID = "5213"
@@ -734,12 +774,15 @@ Inst22Quest11_HORDE_QuestID = "5263"
 Inst22Quest12_HORDE_QuestID = "8945"
 Inst22Quest13_HORDE_QuestID = "8968"
 Inst22Quest14_HORDE_QuestID = "8991"
-Inst22Quest15_HORDE_QuestID = "9257"
+--Inst22Quest15_HORDE_QuestID = "9257"
+Inst22Quest15_HORDE_QuestID = "26433"
 Inst22Quest16_HORDE_QuestID = "5307"
 Inst22Quest17_HORDE_QuestID = "5305"
 Inst22Quest18_HORDE_QuestID = "6163"
-Inst22Quest19_HORDE_QuestID = "7622"
-Inst22Quest20_HORDE_QuestID = "26433"
+Inst22Quest19_HORDE_QuestID = "26475"
+--Inst22Quest19_HORDE_QuestID = "7622"	--(NYI)
+Inst22Quest20_HORDE_QuestID = "26316"
+Inst22Quest21_HORDE_QuestID = "26741"
 
 
 AQ_5212_Level = "60"
@@ -756,17 +799,19 @@ AQ_5263_Level = "60"
 AQ_8945_Level = "60"
 AQ_8968_Level = "60"
 AQ_8991_Level = "60"
-AQ_9257_Level = "60" -- NOTE: Atiesh Priest version
-AQ_9269_Level = "60" -- NOTE: Atiesh Druid version
-AQ_9270_Level = "60" -- NOTE: Atiesh Mage version
-AQ_9271_Level = "60" -- NOTE: Atiesh Warlock version
+--AQ_9257_Level = "60" -- NOTE: Atiesh Priest version
+--AQ_9269_Level = "60" -- NOTE: Atiesh Druid version
+--AQ_9270_Level = "60" -- NOTE: Atiesh Mage version
+--AQ_9271_Level = "60" -- NOTE: Atiesh Warlock version
 AQ_5307_Level = "60"
 AQ_5305_Level = "60"
-AQ_7622_Level = "60"
+--AQ_7622_Level = "60"
 AQ_6163_Level = "60"
 AQ_26433_Level = "60"
-
-
+AQ_26316_Level = "60"
+AQ_7643_Level = "60"
+AQ_26475_Level = "60"
+AQ_26741_Level = "60"
 
 --------------- INST23 - The Ruins of Ahn'Qiraj (AQ20) ---------------
 
@@ -828,7 +873,7 @@ Inst25Quest15_HORDE_QuestID = "8257"
 Inst25Quest16_HORDE_QuestID = "8236"
 Inst25Quest17_HORDE_QuestID = "26466"
 Inst25Quest18_HORDE_QuestID = "26318"
---Inst25Quest18_HORDE_QuestID = "26317"
+Inst25Quest19_HORDE_QuestID = "26317"
 
 
 AQ_1475_Level = "50"
@@ -854,7 +899,7 @@ AQ_3380_Level = "51"
 AQ_4146_Level = "52"
 AQ_26466_Level = "52"
 AQ_26318_Level = "48"
---AQ_26317_Level = "48"
+AQ_26317_Level = "48"
 
 
 
@@ -971,12 +1016,16 @@ Inst96Quest2_QuestID = "8967"
 Inst96Quest3_QuestID = "8990"
 Inst96Quest4_QuestID = "26325"
 Inst96Quest5_QuestID = "26343"
+Inst96Quest6_QuestID = "26319"
+Inst96Quest7_QuestID = "7629"
 
 Inst96Quest1_HORDE_QuestID = "26342"
 Inst96Quest2_HORDE_QuestID = "8967"
 Inst96Quest3_HORDE_QuestID = "8990"
 Inst96Quest4_HORDE_QuestID = "26325"
 Inst96Quest5_HORDE_QuestID = "26337"
+Inst96Quest6_HORDE_QuestID = "26320"
+Inst96Quest7_HORDE_QuestID = "7629"
 
 AQ_26342_Level = "60"
 AQ_26340_Level = "60"
@@ -985,6 +1034,9 @@ AQ_8967_Level = "60"
 AQ_8990_Level = "60"
 AQ_26343_Level = "60"
 AQ_26337_Level = "60"
+AQ_26319_Level = "60"
+AQ_26320_Level = "60"
+AQ_7629_Level = "60"
 
 ---------------------------------------------------
 ---------------- BATTLEGROUNDS --------------------

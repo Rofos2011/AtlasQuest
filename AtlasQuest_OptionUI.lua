@@ -106,7 +106,7 @@ end
 function AQRIGHTOption_OnClick()
      if ((AtlasFrame ~= nil) and (AtlasORAlphaMap == "Atlas")) then
        AtlasQuestFrame:ClearAllPoints();
-       AtlasQuestFrame:SetPoint("TOP","AtlasFrame", 570, -83);
+       AtlasQuestFrame:SetPoint("TOP","AtlasFrame", 584, -10);     --Rofos2011 AQButton click window pos (right), same as 433 and 702 of lua, 109 of OptionUI
      elseif (AtlasORAlphaMap == "AlphaMap") then
        AtlasQuestFrame:ClearAllPoints();
        AtlasQuestFrame:SetPoint("TOP","AlphaMapFrame", 400, -107);
@@ -127,7 +127,7 @@ end
 function AQLEFTOption_OnClick()
     if ((AtlasFrame ~= nil) and (AtlasORAlphaMap == "Atlas") and ( AQ_ShownSide == "Right") ) then
        AtlasQuestFrame:ClearAllPoints();
-       AtlasQuestFrame:SetPoint("TOP","AtlasFrame", -560, -82);
+       AtlasQuestFrame:SetPoint("TOP","AtlasFrame", -570, -10);               -- Rofos2011 frame natural pos (Left) --same as 436 of .lua, 130 of OptionUI, 395 of .xml
      elseif ((AtlasORAlphaMap == "AlphaMap") and ( AQ_ShownSide == "Right") ) then
        AtlasQuestFrame:ClearAllPoints();
        AtlasQuestFrame:SetPoint("TOPLEFT","AlphaMapFrame", -195, -107);
