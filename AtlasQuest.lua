@@ -22,6 +22,30 @@
 --]]
 
 -----------------------------------------------------------------------------
+-- C_Timer polyfill (3.3.5a client has no native C_Timer)
+-----------------------------------------------------------------------------
+if not C_Timer then
+    C_Timer = {}
+    local AQ_TimerFrame = CreateFrame("Frame")
+    local AQ_TimerQueue = {}
+
+    AQ_TimerFrame:SetScript("OnUpdate", function()
+        local now = GetTime()
+        for i = #AQ_TimerQueue, 1, -1 do
+            local timer = AQ_TimerQueue[i]
+            if now >= timer.triggerAt then
+                table.remove(AQ_TimerQueue, i)
+                timer.callback()
+            end
+        end
+    end)
+
+    function C_Timer.After(delay, callback)
+        table.insert(AQ_TimerQueue, { triggerAt = GetTime() + delay, callback = callback })
+    end
+end
+
+-----------------------------------------------------------------------------
 -- Colours
 -----------------------------------------------------------------------------
 
