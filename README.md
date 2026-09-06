@@ -1,4 +1,4 @@
-# AtlasQuest for Project Epoch (Ascension)
+# AtlasQuest for Project Epoch
 This is a modified version of **AtlasQuest** that includes some **Project Epoch** custom dungeon quests. 
 **AtlasQuest** provides detailed quest information for dungeons, raids, and instances. It integrates with **Atlas** and to display quests directly on the map, making it easier to find and complete quests in your dungeons.
 > [!WARNING]
